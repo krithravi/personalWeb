@@ -1,0 +1,48 @@
+[	
+    {
+        "title": "Mapping Keys",
+        "path": "/writeup/map",
+        "desc": "Mapping one key to another in Ubuntu"
+    },
+    {
+        "title": "Changing Login Color",
+        "path": "/writeup/color",
+        "desc": "Changing the color of the login screen from shades of aubergine to something else in Ubuntu 18.04"
+    },
+    {
+        "title": "Desktop Environment",
+        "path": "/writeup/deskenv",
+        "desc": "Playing around with different desktop environments and fixing some issues"
+    },
+    {
+        "title": "Beautifying the Bash Experience",
+        "path": "/writeup/bash",
+        "desc": "Making things look pretty in my terminal with Bash"
+    },
+    {
+        "title": "Accent Marks",
+        "path": "/writeup/tweaks",
+        "desc": "Typing diacritics in Ubuntu"
+    },
+    {
+        "title": "Browser Reviews",
+        "path": "/writeup/browser",
+        "desc": "My experiences with a bunch of browsers"
+    },
+    {
+        "title": "Network Connection for Arch Linux ARM",
+        "path": "/writeup/network",
+        "desc": "Getting Pippin to connect to WiFi"
+    },
+    {
+        "title": "Sleep and Wake",
+        "path": "/writeup/sleep",
+        "desc": "Gettin Éowyn to go to sleep mode and wake up without having to power off"
+    },
+    {
+        "title": "Power Management",
+        "path": "/writeup/power",
+        "desc": "Attempting to get better power management on Éowyn with Powertop and TLP "
+ 
+    }
+]
