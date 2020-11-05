@@ -13,7 +13,10 @@ function Sleep(){
             <div class="box">
                 <h3>The Problem</h3>
                 &Eacute;owyn, my lovely Dell XPS 15 9570, likes to give its Ubuntu (and Linux) users hell when
-                it comes to going to sleep mode and waking up.
+                it comes to going to sleep mode and waking up. As it stood, I couldn't close my laptop and 
+                then resume working, which was rather problematic since closing the laptop should have theoretically
+                only put the computer in sleep mode. Every time I closed the lid, I had to power off and power on
+                my laptop.
             </div>
             <br></br>
             <div class="box">
@@ -25,7 +28,7 @@ function Sleep(){
                 <br></br><br></br>
                 The next step was checking out my BIOS settings.
                 <ol>
-                        <li>Get drivers (an <span class="directory">.exe</span> file) from the Dell website (a truly dreadful experience), put the
+                        <li>Get drivers (an <span class="monospace">.exe</span> file) from the Dell website (a truly dreadful experience), put the
                                 file on a USB drive, and mount the drive.</li>
                         <li>Shut down the computer and enter the BIOS by pressing the F2 key, and going
                                 to <span class="directory">Settings</span> <FaArrowRight /><span class="directory">Power Management</span> <FaArrowRight /> <span class="directory">USB Wake Support</span> as well as <span class="directory">Settings</span> <FaArrowRight /> <span class="directory">Power
@@ -37,7 +40,7 @@ function Sleep(){
                                 <ol>
                                         <li>Repeatedly pressing <code class="inline">F12</code> (I don’t actually know if doing it only once suffices)</li>
                                         <li>Selecting the <code class="inline">BIOS Flash Update</code></li>
-                                        <li>Navigating to and selecting that <span class="directory">.exe</span> file we talked about earlier</li>
+                                        <li>Navigating to and selecting that <span class="monospace">.exe</span> file we talked about earlier</li>
                                         <li>Waiting for a <i>while</i></li>
                                 </ol>
                         </li>
@@ -50,16 +53,16 @@ function Sleep(){
                 <h3>The Solution</h3>
                 There’s a pretty simple <a href="https://youtu.be/f-u7Zk_itUU">4-ish minute long YouTube video</a> that explained this the best. The
                 chap pulled a ton of this stuff from ArchWiki. The <a href="https://wiki.archlinux.org/index.php/Dell_XPS_15_7590">pertinent stuff</a> can be found in the
-                <b>Power Management</b> section of the page.
+                <b> Power Management</b> section of the page.
                 <ol>
                         <li>If you type <div class="realcode">cat /sys/power/mem_sleep</div> you’ll see the (default) response:
-                                <span class="directory">[s2idle] deep</span>, meaning that the s2idle is selected.</li>
+                                <span class="monospace">[s2idle] deep</span>, meaning that the s2idle is selected.</li>
                         <li>To fix the issue, you’ll want to use the deep version instead. You could just go ahead
                                 and use the command <div class="realcode">echo deep|sudo tee/sys/power/mem_sleep</div> which would
                                 temporarily fix the issue.</li>
                         <li>To make the change permanent, change the kernel parameters by editing the <span class="monospace">/etc/default/grub</span> as a superuser.</li>
                         <li> In the <span class="monospace">grub</span> file, the <span class="monospace">GRUB_CMDLINE_LINUX_DEFAULT</span> (the boot options) is set to
-                                <span class="monospace">quiet splash</span>.
+                                <span class="monospace"> quiet splash</span>.
                                 <ul>
                                         <li> The <span class="monospace">quiet</span> part just means “non-verbose.” Without this, a bazillion messages
                                                 would be printed to the screen. </li>

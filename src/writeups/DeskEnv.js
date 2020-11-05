@@ -62,6 +62,14 @@ function DeskEnv (){
                     Pippin at some point in time. Right now, I'm considering i3, but I'm not
                     sure. If/when I do set it up, I'll update it here.
             </div>
+            <div class="box">
+                <h3>Cinnamon</h3>
+                I didn't like XFCE much after using it on my VM, Gwaihir. However, I now use Cinnamon on my Dell XPS.
+                It feels more lightweight than GNOME, but I'm now starting to feel the burden of not using the most
+                popular version of something. Certain tools have backwards compatibility, but others certainly don't.
+                One of my favorites, for example, <span class="monospace">gnome-tweaks</span> works in a really jank way:
+                it'll let you set the <code class="inline">Compose</code> key, but literally let you do nothing else. 
+             </div>
         </div>
     )
 }

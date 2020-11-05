@@ -4,6 +4,7 @@ import '../style.css'
 // u gotta use react-router-dom, not just react-router
 import Header from '../components/Header'
 import MiniHeader from './MiniHeader'
+import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-router-dom';
 
 function Bash(){
     return(
@@ -32,8 +33,8 @@ function Bash(){
                 my initials in bold green, and a dollar sign: <span class="monospace">\e[1;32mKR$ \e[m</span>.
                 <br></br>
                 <br></br>
-                However, when I use the <code class="inline">Ctrl</code>+<code class="inline">p</code> or the <code class="inline">Up Arrow</code> key to access the previous command,
-                sometimes, it'll held a part of the previous line in the command line. This
+                However, when I used the <code class="inline">Ctrl</code>+<code class="inline">p</code> or the <code class="inline">Up Arrow</code> key to access the previous command,
+                it sometimes held a part of the previous line in the command line. This
                 did not affect the next command I ran, but it still bugged me.
                 </p>
 		    <h4>Stuff that didn't work</h4>
@@ -57,16 +58,19 @@ function Bash(){
 		<h3>Changing Appearance of Bash Layout</h3>
 		You can change the colors of how your directories, files and other things look when you
 		list out the contents of a directory. This stuff is stored in an environmental variable called
-		<span class="monospace">$LS_COLORS</span>.
+		<span class="monospace"> $LS_COLORS</span>.
 		<br></br>
+        <br></br>
 		If you type <div class="realcode">echo $LS_COLORS</div> you’ll see a bunch of gunk. If you want to play around
 		before committing to anything, you can set another environmental variable to the value
 		of <span class="monospace">$LS_COLORS</span>, and make any changes you want to <span class="monospace">$LS_COLORS</span> to check it out. These
 		changes will go away once you kill the current terminal. If you want any changes to be
 		permanent, just add a line to your <span class="monospace">.bashrc</span> file.
 		<br></br>
+        <br></br>
 		There are a gazillion options to customizing your setup, but a basic one could read as
 		follows: <div class="realcode">di=1;36:*.png=1;35:ex=1;33</div>
+        <br></br>
 		Let’s go through it bit by bit:
 		<ol>
 			<li>Directories are bright cyan</li>
@@ -74,7 +78,7 @@ function Bash(){
 			<li>All executables are bright yellow</li>
 			<li>Entries are colon-separated</li>
 		</ol>
-		My current settings for this variable are in my <span class="monospace">.bashrc</span> file.
+		My current settings for this variable are in my <Link to="/writeup/dotfiles">.bashrc</Link> file.
 	</div>
         </div>
 

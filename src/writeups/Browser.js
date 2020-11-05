@@ -51,6 +51,19 @@ function Browser(){
                 the same look and feel as Chrome, but I still wasn’t a big fan of its RAM consumption and
                 lack of a PDF viewer (which I figured was super standard, but I guess not). I uninstalled
                 Chromium and moved on with life.
+                <h3>Tor/Onion Browser</h3>
+                I heard about Tor through the DuckDuckGo newsletter (which gives the average human a 
+                pretty decent intro to privacy).
+                I'd heard fairly good things about the Onion Browser, that it would give the user more
+                privacy and that it was FOSS. 
+                <br></br>
+                <br></br>
+                Yeah, I tried to make it my default browser, but I ran into
+                one fundamental issue: it was far too slow for me. The performance drawback was a bit too
+                much to bear, so I moved on. On my mobile devices, this was my only issue. However, on
+                my laptop, the additional concern I had is that I had to launch the application from an
+                executable every time. I wasn't sure that the program was exiting correctly, since when I
+                'X'-ed out the application, the command prompt would not return on its own. 
                 <h3>Opera</h3>
                 I installed Opera using the Ubuntu Software app, and not through command line.
                 <h4>Pros</h4>
@@ -67,10 +80,10 @@ function Browser(){
                 </ul>
                 <h4>Cons</h4>
                 <ul>
+                        <li>Passwords are stored as <i>plaintext</i>. I ... don't even have words.</li>
+                        <li>Not all programs support Opera (like Overleaf), since it's not that popular.</li>
                         <li>There’s not really a “never remember history” option, like there was in Firefox</li>
-                        <li>Situation regarding addons is confusing</li>
                         <li>FB Messenger is kinda weird; it only works sometimes</li>
-                        <li>Passwords are <i>not</i> stored securely</li>
                 </ul>
                 It also gives you an option to <a href="https://help.opera.com/en/latest/security-and-privacy/#VPN">enable VPN</a>:
                 <ol>
@@ -79,9 +92,10 @@ function Browser(){
                         <li>Go to the top of the search bar; you’ll see the letters “VPN” in a light grey. Click on
                                 that, so that it becomes blue. This will let you pick the location.</li>
                 </ol>
-                Also, keep in mind that by default, addons/extentions are not enabled in private mode; you have to go and add them manually.
-                <br></br><br></br>
-                Overall, I’m pretty happy with this one. We’ll see how it goes!
+                <br></br>
+                Should you choose Opera, you will need to use a
+                secure password manager. Do not trust Opera to store your passwords for you.
+                Beyond that, I’m pretty happy with this one. We’ll see how it goes!
         </div>
         </div>
     )

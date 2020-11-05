@@ -49,7 +49,47 @@ function Map(){
 					</li>
 					<li> Exit out, and you're good to go! </li>
 				</ol>
-				I still haven't done this in Pippin yet.
+				<h3>On Debian</h3>
+				On Debian, which is what I'm currently running, the solution was a bit different, and I must say
+				I liked it less.
+				<br></br>
+				<br></br>
+				Edit the file <span class="monospace">/etc/default/keyboard</span> as
+				superuser. There'll be a line
+				with <span class="monospace">XKBOPTIONS="blah"</span>, 
+				where <span class="monospace">blah</span> represents
+				your current settings, most likely nothing. Just put the
+				string <span class="monospace">caps:escape</span> inside of 
+				those quotes and restart. That's it!
+
+				<br></br>
+				<h3>Arrow Keys</h3>
+				I really felt the need to add this at a later date. Why, you might ask?
+				Sheer fear (which is also what I felt writing half the content on this website).
+				<br></br>
+				<br></br>
+				To be kinda vulnerable on the internet: like a lot of folks, when I'm stressed, I like
+				to change things, often a bit impulsively. This could be a haircut, reflashing my computer
+				with a new distro, clean up/decorate my work space, etc. And these actions all have their
+				own consequences.
+				<br></br>
+				<br></br>
+				This time, I disabled my arrow keys, using <span class="monospace">xmodmap</span>, which I 
+				talked about earlier on this page. 
+				I guess I thought I needed to learn Vim and Emacs (since the default for terminals is Emacs) keybindings.
+				Based on what <a href="https://superuser.com/questions/775785/how-to-disable-a-keyboard-key-in-linux-ubuntu">another user said on StackExchange</a>,
+				I ran the command 
+				<div class="realcode">
+					xmodmap -e 'keycode 116='; xmodmap -e 'keycode 113='; xmodmap -e 'keycode 114='
+				</div>
+				Initially, I panicked, since I couldn't reverse it, and there are unanswered 
+				comments below the accepted answer
+				(this entry is dated 10/18/20) asking how to undo the action. However, somehow, it, um, undid itself?
+				I'm not entirely sure what's up with that. But we'll see, I guess.
+				<br></br>
+				<br></br>
+				BTW, recursive backtracking is mind boggling enough without handicapping myself.
+				When I'm feeling emotionally strong enough, perhaps in a week or so, I'll try this challenge again.
 			</div>
         </div>
     )

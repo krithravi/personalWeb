@@ -12,7 +12,10 @@ function Power(){
             {MiniHeader("Power Management")}
             <div class="box">
                 <h3>The Problem</h3>
-                &Eacute;owyn's battery consumption is ... less than optimal. From what the
+                &Eacute;owyn's performance is at best less than optimal, and at worst, abysmal.
+                <br></br>
+                <br></br>
+                From what the
                 ArchWiki recommended, I’m testing out powertop, a “tool provided by Intel to enable
                 various powersaving modes in userspace, kernel and hardware. It is possible to monitor
                 processes and show which of them are utilizing the CPU and wake it from its Idle-States, allowing to identify applications with particular high power demands.”
@@ -22,7 +25,7 @@ function Power(){
                 <h3>Stuff to watch out for</h3>
                 <ul>
                         <li>You’re going to want to keep powertop running for a bit only connected to
-                                <u>battery power</u>. If you don’t, powertop won’t have enough measurement data. </li>
+                                &nbsp; <u>battery power</u>. If you don’t, powertop won’t have enough measurement data. </li>
                         <li> Some folks have reported issues with powertop and USB. The fix is going to the
                                 <span class="b">Tunables</span> selection, and changing the settings at the appropriate line from “Good”
                                 to “Bad.”</li>
@@ -41,7 +44,7 @@ function Power(){
                                 <pre> 
                                     <div class="realcode">
                                     
-                                    <span class="monospace">{'cat << EOF | sudo tee /etc/systemd/system/powertop.service'}</span>
+                                    <span class="specialCase">{'cat << EOF | sudo tee /etc/systemd/system/powertop.service'}</span>
                                     [Unit] <br></br>
                                     Description=PowerTOP auto tune <br></br>
                                     <br></br>
@@ -72,11 +75,17 @@ function Power(){
                         </li>
                         <li>Then, type <div class="realcode">sudo apt install tlpui</div>
                         </li>
-                        <li>If you don’t like TLP, uninstall using <div class="realcode">sudo apt remove --autoremove tlpui</div> and go to <span class="a">Software & Updates</span> <FaArrowRight /> <span class="a">Other Software</span> to remove the PPA. </li>
+                        <li>If you don’t like TLP, uninstall using <div class="realcode">sudo apt remove --autoremove tlpui</div> and go to <code class="inline">Software & Updates</code> <FaArrowRight /> <code class="inline">Other Software</code> to remove the PPA. </li>
                 </ol>
-
+                <h3>Undervolting CPU</h3>
+                At this point, I'm really, really, hating &Eacute;owyn; my honest recommendation to anyone
+                is to just get something other than a Dell XPS 9570. My laptop heats up when I'm running something
+                like Vim for about 5 minutes, and this is right after a fresh reboot/shut down. I'm at a loss.
+                I tried using TLPUI to help me out on undervolting, and it's <i>kinda</i> working, but not as
+                effectively as I would have liked. 
 
         </div>
+                
         </div>
     )
 }

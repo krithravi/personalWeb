@@ -1,32 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
 
-/*:root {
-    --near-black-green: #283812;
-    --near-white-green: #e6f5d0;
-    --medium-green: #73AD21;
-    --bit-deeper-green: #497013;
-    --keys: #c3e396;
-    --links: #8ec147;
-}*/
 
 :root {
-    --navy-blue: #25283D;
-    --light-blue: #98DFEA;
-    --tiffany-blue: #07BEB8;
-    /*--med-purple: #8F3985;*/
-    --med-purple: rgba(143, 57, 133, 1);
-    --apricot: #EFD9CE;
-
+    --navy-blue: #283533;
+    --light-blue: #ffffff;
+    --tiffany-blue: #9affe6;
+    --apricot: #ffee88;
+    --visited: #d9ff81; 
 }
-
+* {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    font-size: 18px;
+    color: var(--light-blue);
+    
+}
 body {
-    background: linear-gradient( var(--med-purple), var(--navy-blue));
+    /*background: linear-gradient( var(--med-purple), var(--navy-blue));*/
+    background: var(--navy-blue);
 }
 
 h1 {
     color: var(--light-blue);
     text-align: center;
-    font-family: "Roboto", sans-serif;
     font-size: 50px;
     font-weight: lighter;
     word-break: break-all;
@@ -46,23 +45,19 @@ h3 {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
-    font-weight: 150;
+    font-weight: bold;
     word-break: break-all;
 }
 
 h4 {
     color: var(--light-blue);
 }
-header {
-    background-color: var(--bit-deeper-green);
-    padding: 20px;
-}
+
 code.inline {
     background: var(--light-blue);
     color: var(--navy-blue);
     padding: 0.1em;
     border-radius: 0.3em;
-    /*font-family: "Courier New", Courier, monospace;*/
 }
 
 .realcode {
@@ -87,6 +82,11 @@ span.monospace {
     font-family: "Courier New", Courier, monospace;
     color: var(--apricot)
 }
+
+.specialCase {
+    font-family: "Courier New", Courier, monospace;
+    color: var(--navy-blue);
+}
 .box {
     margin: auto;
     width: 60%;
@@ -105,30 +105,18 @@ span.monospace {
 }
 
 
-
-* {
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.5;
-    color: var(--light-blue);
-    
-}
-
 a:link {
     color: var(--apricot);
     text-decoration: underline;
 }
-/*
-.button {
-	border-radius: 2em;
-    cursor:pointer;
-    margin: 5px;
-    background: var(--bit-deeper-green);
-    color: white;
-}*/
-
+a:visited {
+    /*color: var(--visited);*/
+    color: var(--apricot);
+}
 .button:hover {
 	box-shadow: 0 3px 7px 0 var(--tiffany-blue);
 }
+
 p {
     color: var(--light-blue);
     font-size: 18px;
@@ -194,4 +182,75 @@ p {
   
 .each-fade {
     display: flex;
+}
+
+
+.accordion {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.accordion__item + .accordion__item {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+    background-color:var(--apricot);
+    color: var(--navy-blue);
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    text-align: left;
+    border: none;
+    margin:auto;
+    border-radius:10px;
+}
+
+.accordion__button:hover {
+    background-color: var(--tiffany-blue)
+}
+
+.accordion__button:before {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+    transform: rotate(45deg);
+}
+
+[hidden] {
+    display: none;
+}
+
+.accordion__panel {
+    padding: 20px;
+    animation: fadein 0.35s ease-in;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.cropUp{
+    width: 60%;
+    padding: 2em;
+    margin: auto;
+    font-family: "Courier New", Courier, monospace;
 }

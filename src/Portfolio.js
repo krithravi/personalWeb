@@ -3,13 +3,13 @@ import StackGrid from "react-stack-grid";
 import Header from './components/Header'
 
 var objwidth=375;
-function Porfolio (){
+function Portfolio (){
     return(
         <div>
             <Header />
 
             <StackGrid
-                    columnWidth={400}
+                columnWidth={400}
             >
                 <div><img src={ require('./artwork/mellon.jpg') }alt="Doors of Durin" width={objwidth} /> </div>
                 <div><img src={ require('./artwork/anita.jpg') }alt="Anita, a clay frog" width={objwidth} /> </div>
@@ -46,4 +46,4 @@ function Porfolio (){
     );
 }
 
-export default Porfolio;
+export default Portfolio;

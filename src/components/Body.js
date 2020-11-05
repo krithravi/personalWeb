@@ -6,25 +6,29 @@ function Body(){
 	return (
 		<div className="box" style={{marginLeft: "10%", width: "40%"}}>
 			<p>
-			Hi, I'm Krithika.
+			Hi, I'm Krithika!
 			<br /> <br />
 
-			I'm a computer science student at the University of Texas at Austin.
+			I'm a computer science student at the University of Texas at Austin,
+			class of '22.
+			I'm minoring in business Spanish.
 			<br /> <br />
 
-			I primarily use Python, R, and LaTeX for research. I've also used
-			C++ and Java in other projects. I enjoy customizing and tinkering
+			I primarily use Java and C++ in projects. 
+			I've also used Python, R, and LaTeX for research. 
+			I enjoy customizing and tinkering
 			with my computers, and here are some {' '}
 			<Link to="/writeup">write-ups</Link>
 			{' '} based on 
-			my experiences. I love Linux! I mainly use Ubuntu and Arch, but I 
-			also use Debian, CentOS, and Suse.
+			my experiences.
 			<br /> <br />
 
 			I love learning languages and practicing taekwondo. 
 			I also enjoy playing the violin and creating <Link to="/portfolio">artwork</Link> in my 
 			free time.
-			I really love amphibians and reptiles, but I'm partial to frogs.
+			I love amphibians and reptiles, but I'm partial to frogs.
+			I have a yellow uromastyx named <a href="https://www.instagram.com/shakira.uro"> Shakira</a>
+.
 			</p>
 		</div>
 	);

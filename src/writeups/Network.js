@@ -43,7 +43,7 @@ function Network(){
                 install it without network connection.
                 <br></br><br></br>
                 I ran the command <div class="realcode">lspci -k </div> to check if the
-                kernel loaded the driver. I got no result. As I mentioned early, the
+                kernel loaded the driver. I got no result. As I mentioned earlier, the
                 <span class="directory">wifi-menu</span> and the <span class="directory">netctl</span> methods talk to each other,
                 in terms of creating profiles. Since I'd already established that
                 the <span class="directory">wifi-menu</span> method wasn't working to create
@@ -118,7 +118,7 @@ function Network(){
                         <br></br><br></br>
                         I had to run:
                 <pre><div class="realcode">
-                    <span class="monospace">{'cat << EOF >> root/etc/systemd/network/wlan0.network'}</span> <br></br>
+                    <span class="specialCase">{'cat << EOF >> root/etc/systemd/network/wlan0.network'}</span> <br></br>
             
                     [Match] <br></br>
                     Name=wlan0 <br></br>
@@ -127,7 +127,7 @@ function Network(){
                     DHCP=yes <br></br>
                     EOF <br></br>
                     <br></br>
-                    <span class="monospace">{'wpa_passphrase "${SSID}" "${PASS}" > root/etc/wpa_supplicant/wpa_supplicant-wlan0.conf'}</span> <br></br>
+                    <span class="specialCase">{'wpa_passphrase "${SSID}" "${PASS}" > root/etc/wpa_supplicant/wpa_supplicant-wlan0.conf'}</span> <br></br>
                     <br></br>
                     ln -s \ <br></br>
                     /usr/lib/systemd/system/wpa_supplicant@.service \ <br></br>
@@ -136,15 +136,16 @@ function Network(){
                 </pre>
 
 
-                            replacing <span class="monospace">{'$"{SSID}"'}</span> with the name of the network, and the
-                            <span class="monospace">{'$"{PASS}"'}</span> with the password.
+                replacing <span class="monospace">{'$"{SSID}"'}</span> with the name of the network, and the
+                <span class="monospace"> {'$"{PASS}"'}</span> with the password.
 <br></br><br></br>
 This finally worked :)
 
 <br></br><br></br>
 I'm adding this at another date. Another solution that's substantially easier
-is to hook yourself up to an Ethernet connection, and install the <span class="directory">network manager</span>, which comes with both <span class="directory">nmcli</span> and <span class="directory">nmtui</span> programs, which are
-pretty intuitive to use.
+is to hook yourself up to an Ethernet connection, and install the <span class="directory">network manager</span>, 
+which comes with both <span class="directory">nmcli</span> and <span class="directory">nmtui</span> programs, 
+which are pretty intuitive to use.
 <br></br><br></br>
 While I had initially tried to install this program, I hadn't realized that
 being on a university campus (with the weird login page) may have been affecting

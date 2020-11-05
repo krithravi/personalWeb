@@ -11,17 +11,19 @@
     "gh-pages": "^3.0.0",
     "particles.js": "^2.0.0",
     "react": "^16.13.1",
+    "react-accessible-accordion": "^3.3.3",
     "react-dom": "^16.13.1",
+    "react-gist": "^1.2.2",
     "react-icons": "^3.10.0",
     "react-particles-js": "^3.2.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^2.1.8",
     "react-slideshow-image": "^1.5.3",
     "react-stack-grid": "^0.7.1",
     "serve": "^11.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -32,7 +34,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [

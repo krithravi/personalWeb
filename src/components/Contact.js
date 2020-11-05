@@ -1,7 +1,6 @@
 import React from 'react';
 import '../style.css'
 import media from '../media.json'
-import { FaLinkedinIn, FaBluetooth } from 'react-icons/fa'
 import 'font-awesome/css/font-awesome.min.css';
 /* btw, the json idea worked way better than storing them all as vars
 bc u didn't lose your mind naming things and checking scope things.
@@ -25,11 +24,14 @@ class IndivContact extends React.Component {
         return <button 
                     className ="button write" 
                     onClick={this.workingLink} >
-                    <i style={{color: "var(--navy-blue)"}} className={this.props.icon}> </i> {this.props.name} 
+                    <i 
+                        style={{color: "var(--navy-blue)"}} 
+                        className={this.props.icon}> 
+                    </i> {this.props.name} 
                 </button>
     }
 }
-// TODO: add icons! (in media.json)
+
 // goes thru each item in media.json and does whatever IndivContact says
 function Contact (){
     return (

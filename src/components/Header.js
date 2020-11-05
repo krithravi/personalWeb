@@ -1,8 +1,7 @@
 import React from 'react';
 import '../style.css'
 import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-router-dom';
-import { FaHome } from 'react-icons/fa'
-var title="Krithika Ravishankar";
+var title="krithravi";
 
 const imgstyle = {
 	maxWidth: "100%",
@@ -16,13 +15,17 @@ const buttonstyle = {
 function Header(){
 	return (
 		<div>
-				<Link to="/">
+			<header>
+				<Link to="/" style={{textDecoration:"none"}}>
 					<button style={buttonstyle} className="button">
 						<img style={imgstyle} src={ require('./filledtransparentfrog.png') } />
 					</button>
+					<h1>
+						{title}
+					</h1>
 				</Link>
-				<h1>{title}</h1>
 			<hr />
+			</header>
 		</div>
 	);
 }

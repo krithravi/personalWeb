@@ -1,8 +1,13 @@
 [	
     {
+        "title": "Debian Installation",
+        "path": "/writeup/debian",
+        "desc": "Getting started with Debian on Dell XPS"
+    },
+    {
         "title": "Mapping Keys",
         "path": "/writeup/map",
-        "desc": "Mapping one key to another in Ubuntu"
+        "desc": "Mapping one key to another in Debian/Ubuntu"
     },
     {
         "title": "Changing Login Color",
@@ -44,5 +49,10 @@
         "path": "/writeup/power",
         "desc": "Attempting to get better power management on Éowyn with Powertop and TLP "
  
+    },
+    {
+        "title": "VirtualBox Setup",
+        "path": "/writeup/virtualbox",
+        "desc": "Getting started with Oracle's VirtualBox on Ubuntu machine"
     }
 ]
