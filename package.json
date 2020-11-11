@@ -15,11 +15,13 @@
     "react-dom": "^16.13.1",
     "react-gist": "^1.2.2",
     "react-icons": "^3.10.0",
+    "react-markdown": "^5.0.2",
     "react-particles-js": "^3.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^2.1.8",
     "react-slideshow-image": "^1.5.3",
     "react-stack-grid": "^0.7.1",
+    "react-syntax-highlighter": "^15.3.0",
     "serve": "^11.3.2"
   },
   "scripts": {

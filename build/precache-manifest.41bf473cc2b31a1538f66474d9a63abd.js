@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/sauron.775d5229.jpg"
   },
   {
-    "revision": "d4d278a89d030c50e77f",
-    "url": "/static/css/main.c8f7a2b0.chunk.css"
+    "revision": "fe885a8eb798e96583be",
+    "url": "/static/css/main.3fe5782c.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/anthonypafrogs.77e733e3.png"
   },
   {
-    "revision": "b4eb388c58e5fdc0b3b6",
-    "url": "/static/js/2.8982a792.chunk.js"
+    "revision": "67e2f59995421ae50305",
+    "url": "/static/js/2.40d184a1.chunk.js"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -88,8 +88,8 @@ self.__precacheManifest = [
     "url": "/static/media/roses_wallhanger.ee696798.jpg"
   },
   {
-    "revision": "d4d278a89d030c50e77f",
-    "url": "/static/js/main.1d8ac632.chunk.js"
+    "revision": "fe885a8eb798e96583be",
+    "url": "/static/js/main.05a58893.chunk.js"
   },
   {
     "revision": "2e764e80e59d743ce7aef2cbb543c50e",
@@ -172,11 +172,11 @@ self.__precacheManifest = [
     "url": "/static/media/africanbullfrog.dc79c4c4.png"
   },
   {
-    "revision": "b4eb388c58e5fdc0b3b6",
+    "revision": "67e2f59995421ae50305",
     "url": "/static/css/2.e70c5877.chunk.css"
   },
   {
-    "revision": "bba6205711a23eac903ddc7334ea202c",
+    "revision": "fe48c23332902bf054e2ee99ac289fd6",
     "url": "/index.html"
   }
 ];

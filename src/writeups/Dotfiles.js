@@ -5,6 +5,7 @@ import '../style.css'
 import Header from '../components/Header'
 import MiniHeader from './MiniHeader'
 import { FaArrowRight } from 'react-icons/fa';
+import '../style.css';
 
 import {
     Accordion,
@@ -15,21 +16,17 @@ import {
 } from 'react-accessible-accordion';
 import EmbeddedGist from '../EmbeddedGist';
 
-
-import Gist from 'react-gist';
-
 function Dotfiles(){
     return (
         <div>
             <Header />
             {MiniHeader("Dotfiles and Configs")}
             <div className="box">
-                Feel free to use
-                however much (or little) you like! Again, these
-                are compiled from other folks' dotfiles and config.
-                <br></br>
-                <br></br>
-                
+                <p>
+                    Feel free to use
+                    however much (or little) you like! Again, these
+                    are compiled from other folks' dotfiles and config.
+                </p> 
             </div>
             <Accordion allowZeroExpanded>
                 <AccordionItem>

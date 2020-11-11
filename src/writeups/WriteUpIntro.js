@@ -9,18 +9,19 @@ function WriteUpIntro(){
 			<Header />
 			<div className="box">
 				<p> 
-					Hi, how's it going?
+					Howdy!
 					<br></br>
 					<br></br>
-					This is essentially a series of write-ups for various tech issues
-					I've encountered. I'm not sure if these will be that helpful for
-					you, since this is just documentation for my own
-					sanity. However, if these do help, that's fantastic!
+					These are a bunch of write-ups various installations and issues
+					I've encountered.
+                    This is documentation for my own sanity, so I'm not sure how
+                    useful they'll be to you.
+                    However, if these do help, that's fantastic!
 					<br></br>
 					<br></br>
-					My <Link to="/writeup/dotfiles">dotfiles</Link> {' '} and these write-ups are a compilation of various things
-					I've found online (typically from wiki sites, StackExchange, and
-					other folks' GitHub pages). Here are some <Link to="/writeup/preferences">standard things I do for setups</Link>.
+					My <Link to="/writeup/dotfiles">dotfiles</Link> {' '} and these write-ups are a compilation of things
+					I've found online, typically from wiki sites, StackExchange, and
+					other folks' GitHub pages. Here are some <Link to="/writeup/preferences">standard things I do for setups</Link>.
 					<br></br>
 					<br></br>
 					These are my current set ups: 
