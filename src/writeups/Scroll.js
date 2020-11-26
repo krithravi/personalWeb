@@ -102,7 +102,7 @@ function Scroll(){
 						to my home directory. To this file, I added the lines
 						<pre>
 							<div class="realcode">
-xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Tapping Enabled" 1
+xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Tapping Enabiled" 1 <br />
 xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Natural Scrolling Enabled" 1
 							</div>
 						</pre>
@@ -117,4 +117,4 @@ xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Natural Scrolling Ena
     )
 }
 
-export default Scroll;;
+export default Scroll;
