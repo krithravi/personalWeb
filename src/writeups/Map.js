@@ -40,7 +40,7 @@ function Map(){
                             <li> At the bottom of the page, I saw two square braces with nothing in them. These
                                 braces are <u>required</u>.</li>
                             <li> Within these braces, I added <div class="realcode">
-                                    `caps:escape'</div> to add the <code class="inline">Caps
+                                    'caps:escape'</div> to add the <code class="inline">Caps
                                     Lock</code> key as another <code class="inline">
                                     Esc</code>. The command you want to use needs to be enclosed in
                                 single quotes. If you want multiple options, they need to be comma

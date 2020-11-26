@@ -1,5 +1,10 @@
 [	
     {
+        "title": "Scrolling with i3",
+        "path": "/writeup/scroll",
+        "desc": "Setting up natural scrolling with i3"
+    },
+    {
         "title": "Debian Installation",
         "path": "/writeup/debian",
         "desc": "Getting started with Debian on Dell XPS"
