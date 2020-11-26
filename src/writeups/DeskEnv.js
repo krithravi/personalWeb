@@ -74,6 +74,21 @@ function DeskEnv (){
                         it'll let you set the <code class="inline">Compose</code> key, but literally let you do nothing else. 
                     </p>
              </div>
+			<div class="box">
+				<h3>i3</h3>
+				<p>
+					I now use i3, a window manager that replaces your DE.
+					I actually really like it. The customizability is really nice.
+					There's a bit of a learning curve, since you have to kinda
+					set up most things you want yourself. For example, I can't control
+					the audio via my keyboard without setting that up myself. The
+					default bar is really minimalistic, but probably needs customizing.
+					There'll probably be a lot of i3 related write-ups as I
+					customize stuff in the upcoming weeks. This entry
+					is dated 11/25/20. On the bright side, I've learned about
+					a lot more tools already!
+				</p>
+			</div>
         </div>
     )
 }
