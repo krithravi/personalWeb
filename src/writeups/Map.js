@@ -64,6 +64,22 @@ function Map(){
                         string <span class="monospace">caps:escape</span> inside of 
                         those quotes and restart. That's it!
                     </p>
+				<h3>Update on XKB stuff</h3>
+					<p>
+						Yeehaw. On i3, things, uh, work a bit differently, since the normal
+						tools I use are not easily available to me.
+						Here's the entirety of the previous file:
+						<pre>
+							<div class="realcode">
+								XKBMODEL="pc105" <br />
+								XKBLAYOUT="us" <br />
+								XKBVARIANT="" <br />
+								XKBOPTIONS="compose:ralt,caps:escape" <br />
+								<br />
+								BACKSPACE="guess" <br />
+							</div>
+						</pre>
+					</p>
 				<h3>Arrow Keys</h3>
                     <p>
                         I really felt the need to add this at a later date. Why, you might ask?
