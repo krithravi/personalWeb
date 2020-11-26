@@ -97,13 +97,14 @@ function Scroll(){
 					</p>
 					<p>
 						Since I was satisfied with the changes I'd made, I need to write
-						them to file. I copied over my <span class="monospace">.xinitrc</span>
-						over from <span class="monospace">/etc/X11/xinit/xinitrc</span> over
-						to my home directory. To this file, I added the lines
+						them to file. I needed a <span class="monospace">.xinitrc</span> file,
+						so I copied it over
+						from <span class="monospace">/etc/X11/xinit/xinitrc</span> to
+						my home directory. To this file, I added the lines
 						<pre>
 							<div class="realcode">
-xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Tapping Enabled" 1 <br />
-xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Natural Scrolling Enabled" 1
+								xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Tapping Enabled" 1 <br />
+								xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Natural Scrolling Enabled" 1
 							</div>
 						</pre>
 						Again, I wanted both tapping and natural scrolling.
