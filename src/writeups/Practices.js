@@ -110,6 +110,16 @@ function Practices(){
                                     solution I'm having.
                                 </p>
                             </li>
+                            <li>
+                                <b>Make a copy of anything you're editing</b> 
+                                <p>
+                                    If you're making significant changes to one of your config files, or
+                                    something else pretty important, make a copy of that file and name it in
+                                    such a way that it won't be executed. For example, you could copy
+                                    the file <span class="monospace">.bashrc</span> to <span class="monospace">.old_bashrc</span>,
+                                    and then make all the changes/test to the actual file without too much fear.
+                                </p>
+                            </li>
                         </ol>
                     </p>
 
