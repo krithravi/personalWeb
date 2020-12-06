@@ -43,5 +43,3 @@ function Contact (){
 }
 
 export default Contact;
-
-// why did this page take me 2+ hrs? heavens.
