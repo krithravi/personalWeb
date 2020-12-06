@@ -22,6 +22,7 @@ import Sleep from './writeups/Sleep';
 import Power from './writeups/Power'
 import Virtualbox from './writeups/Virtualbox'
 import Scroll from './writeups/Scroll'
+import Practices from './writeups/Practices'
 
 import Portfolio from './Portfolio'
 import Gallery from './Gallery'
@@ -65,6 +66,7 @@ function App(){
 				<Route path="/writeup/power" component={Power}/>
 				<Route path="/writeup/virtualbox" component={Virtualbox} />
 				<Route path="/writeup/scroll" component={Scroll} />
+                <Route path="/writeup/practices" component={Practices} />
           	</Switch>
 
         </div>

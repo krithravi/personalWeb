@@ -66,6 +66,7 @@ function Preferences(){
                             </li>
                         </ul>
                     </p>
+                <h3><Link to="/writeup/practices">A list of good practices I've learned over the years</Link></h3>
 		    </div>
         </div>
 
