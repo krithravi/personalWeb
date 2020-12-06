@@ -72,8 +72,6 @@ function Scroll(){
 						and playing with different numbers, which refer to the priority of the file.
 						These didn't work either.
 					</p>
-
-				<h3>The Solution</h3>
                     <p>
 						Evidently, I can't read.
 						The ArchWiki's linked in the beginning suggested running
@@ -111,7 +109,19 @@ function Scroll(){
 						For the temporary testing, the device numbers work fine, but
 						for something to be loaded for every session, it's recommended
 						to use the actual names, since the numbers can change.
+                        This <span class="monospace">/etc/X11/xinit/xinitrc</span> solution did not work for me,
+                        since on reboot, it only did the first command.
 					</p>
+                    <h3>The Solution</h3>
+                    <p>
+                        The final solution was adding the following lines to my i3 config:
+                        <pre>
+							<div class="realcode">
+                                exec --no-startup-id xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Tapping Enabled" 1 & <br/>
+                                exec --no-startup-id xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Natural Scrolling Enabled" 1
+							</div>
+						</pre>
+                    </p>
 
 			</div>
         </div>

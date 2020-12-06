@@ -94,7 +94,7 @@ span.monospace {
 }
 .box {
     margin: auto;
-    width: 60%;
+    width: 65%;
     /*border: 1px solid var(--medium-green);*/
     padding: 10px;
     border-radius: 1em;
