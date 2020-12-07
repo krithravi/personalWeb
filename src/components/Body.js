@@ -13,8 +13,8 @@ function Body(){
                 I'm minoring in business Spanish.
                 <br /> <br />
 
-                I enjoy customizing and tinkering
-                with my computers, and here are some {' '}
+                I enjoy customizing
+                my setups! Here are some {' '}
                 <Link to="/writeup">write-ups</Link>
                 {' '} based on 
                 my experiences.
@@ -24,7 +24,7 @@ function Body(){
                 I also enjoy playing the violin and creating <Link to="/portfolio">artwork</Link> in my 
                 free time.
                 I love amphibians and reptiles, but I'm partial to frogs.
-                I have a yellow uromastyx named <a href="https://www.instagram.com/shakira.uro"> Shakira</a>.
+                I have the cutest uromastyx in the world, <a href="https://www.instagram.com/shakira.uro"> Shakira</a>.
 
 			</p>
 		</div>
