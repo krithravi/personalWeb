@@ -21,14 +21,14 @@ function Practices(){
                             <li>
                                 <b>Back up your stuff. </b> 
                                 <p>
-                                    You'll need a place to back up to, a smol script/tool to help you,
+                                    You'll need a place to back up to, a script/tool to help you,
                                     and a reminder. 
                                     <br/> <br/>
                                     I like compressing my files before backing up,
-                                    but that's optional. There are certain utilities (I know Ubuntu has
-                                    one by default) to do this for you, and feel free to use those.
-                                    The reason I really, really recommend having a one-liner to do this for
-                                    you, or using a built-in tool, is that you're way more likely to back up
+                                    but that's optional. There are utilities (I know Ubuntu has
+                                    one by default) to do this for you, if you like!.
+                                    I recommend having a one-liner to do this for
+                                    you, or using a built-in tool, is because you're way more likely to back up
                                     when it's that easy. I personally don't like the idea of having it 
                                     automatically back up, but that's just me.
                                     Also, set up a reminder to do this regularly. I do mine weekly on Fridays :)
@@ -61,27 +61,29 @@ function Practices(){
                                     </li>
                                 </ol>
                                 <p>
-                                    I know it sound extreme, especially if you're used to listing
+                                    It might sound extreme, especially if you're used to listing
                                     out the files every time and guessing which one is the one you're
                                     looking for. However, staying organized will radically 
                                     improve your quality of life though
-                                    in the long run. It can be insanely tempting to name
+                                    in the long run. It can be tempting to name
                                     files <span class="monospace">temp</span>, <span class="monospace">test</span>,
-                                    and <span class="monospace">foo</span>, but that naming scheme isn't doing you
+                                    and <span class="monospace">foo</span>, but that scheme isn't doing you
                                     any favors.
                                 </p>
                                 <p>
-                                    Just ... go ahead and get in the habit of naming things in a Linux-compatible way.
+                                    Go ahead and get in the habit of naming things in a Linux-compatible way.
                                     Don't include spaces in your file/directory names; it'll make
                                     any CLI thing with Linux painful. This bit comes back to the file organization concept,
                                     have a uniform way of dealing with natural spaces between words. Some folks like 
-                                    camelCase, others like hyphens, and others like underscores. 
+                                    camelCase, others-like-hyphens, and others_prefer_underscores. 
+                                </p>
+                                <p>
                                     Unfortunately, there's not a one-ring-to-rule-them-all
-                                    solution: camelCase doesn't work in React, we can't use hyphens in Java identifiers,
+                                    solution: camelCase doesn't work in React file naming, we can't use hyphens in Java identifiers,
                                     and you might have to escape certain files if they contain underscores in certain
                                     languages (LaTeX does this, if I remember right).
                                     Find a way that works for you, though (that will probably change depending on
-                                    what you're doing though).
+                                    what you're doing).
                                     Begin your names with a non-lowercase character;
                                     no one has the energy to hit the <span class="directory">Shift</span> key every
                                     time (tabbing will take you through the rest!).
@@ -103,21 +105,22 @@ function Practices(){
                                 </p>
                             </li>
                             <li>
-                                <b>The ArchWikis are your Bible</b> 
+                                <b>The ArchWikis are your holy text of choice</b> 
                                 <p>
                                     That, combined with forums and the official docs are your best friends in debugging.
-                                    More often than not, the ArchWikis have a verbatim copy-pastable solution to whatever
-                                    solution I'm having.
+                                    More often than not, the ArchWikis have a copy-pastable solution to whatever
+                                    issue I'm having.
                                 </p>
                             </li>
                             <li>
                                 <b>Make a copy of anything you're editing</b> 
                                 <p>
-                                    If you're making significant changes to one of your config files, or
-                                    something else pretty important, make a copy of that file and name it in
-                                    such a way that it won't be executed. For example, you could copy
+                                    If you're making significant changes to an important file, 
+                                    make a copy of that file and name appropriately.
+                                    For example, you could copy
                                     the file <span class="monospace">.bashrc</span> to <span class="monospace">.old_bashrc</span>,
-                                    and then make all the changes/test to the actual file without too much fear.
+                                    and then make all the changes/test to the actual file without too much fear. The
+                                    file <span class="monospace">.old_bashrc</span> won't be executed due its name.
                                 </p>
                             </li>
                         </ol>
