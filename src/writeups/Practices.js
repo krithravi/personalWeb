@@ -31,7 +31,7 @@ function Practices(){
                                     you, or using a built-in tool, is because you're way more likely to back up
                                     when it's that easy. I personally don't like the idea of having it 
                                     automatically back up, but that's just me.
-                                    Also, set up a reminder to do this regularly. I do mine weekly on Fridays :)
+                                    Also, you might want to set up a reminder to do this regularly!
                                     <br /> <br />
                                     On a side note, also back up before you do anything major, like
                                     partitioning your drive.
@@ -93,8 +93,7 @@ function Practices(){
                             <li>
                                 <b>Do your updates and upgrades</b>
                                 <p>
-                                    They're good for your computer (and you). Do 'em regularly. I do this on
-                                    Fridays too :)
+                                    They're good for your computer (and you). Do 'em regularly. :)
                                 </p>
                             </li>
                             <li>
@@ -109,7 +108,7 @@ function Practices(){
                                 <p>
                                     That, combined with forums and the official docs are your best friends in debugging.
                                     More often than not, the ArchWikis have a copy-pastable solution to whatever
-                                    issue I'm having.
+                                    issue I'm having, no matter which distro I'm working with.
                                 </p>
                             </li>
                             <li>
