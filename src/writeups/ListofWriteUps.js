@@ -5,20 +5,24 @@ import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-
 import WriteUpIntro from './WriteUpIntro'
 import MiniHeader from './MiniHeader'
 
+
 class Makebutton extends React.Component {
 
     render (){
         return (
                 <div>
-                    <div class="box">
+                    <div class="box" style={{color: "green", border: '1px solid green'}}>
+                        
                         <Link to={this.props.path}>
-                            <h2> {this.props.title}</h2>
+                            <span style={{color: '#1988aa', fontSize: 28}}>{this.props.title}</span>
                         </Link>
+                        <br />
+                        <span style={{fontSize: 18}}>{this.props.date}</span>
                         <p>
                             {this.props.desc}
                         </p>
                     </div>
-                    <br></br>
+                    <br />
                 </div>
         );
     }
@@ -29,8 +33,7 @@ function ListofWriteUps (){
         <div>
             <WriteUpIntro />
             <h2 style={{textAlign: 'center'}}>{"Write-Ups"}</h2>
-            { listwrite.map (item => <Makebutton title={item.title} path={item.path} desc={item.desc} /> ) }
-
+            { listwrite.map (item => <Makebutton title={item.title} path={item.path} date={item.date} desc={item.desc} /> ) }
         </div>
     )
 }

@@ -1,62 +1,74 @@
 [	
     {
         "title": "Scrolling with i3",
+        "date" : "November 2020",
         "path": "/writeup/scroll",
         "desc": "Setting up natural scrolling with i3"
     },
     {
         "title": "Debian Installation",
+        "date" : "September 2020",
         "path": "/writeup/debian",
         "desc": "Getting started with Debian on Dell XPS"
     },
     {
         "title": "Mapping Keys",
+        "date" : "October 2019",
         "path": "/writeup/map",
         "desc": "Mapping one key to another in Debian/Ubuntu"
     },
     {
         "title": "Changing Login Color",
+        "date" : "September 2019",
         "path": "/writeup/color",
         "desc": "Changing the color of the login screen from shades of aubergine to something else in Ubuntu 18.04"
     },
     {
         "title": "Desktop Environment",
+        "date" : "November 2019",
         "path": "/writeup/deskenv",
         "desc": "Playing around with different desktop environments and fixing some issues"
     },
     {
         "title": "Beautifying the Bash Experience",
+        "date" : "October 2019",
         "path": "/writeup/bash",
         "desc": "Making things look pretty in my terminal with Bash"
     },
     {
         "title": "Accent Marks",
+        "date" : "November 2019",
         "path": "/writeup/tweaks",
         "desc": "Typing diacritics in Ubuntu"
     },
     {
         "title": "Browser Reviews",
+        "date" : "December 2019",
         "path": "/writeup/browser",
         "desc": "My experiences with a bunch of browsers"
     },
     {
         "title": "Network Connection for Arch Linux ARM",
+        "date" : "January 2020",
         "path": "/writeup/network",
         "desc": "Getting Pippin to connect to WiFi"
     },
     {
         "title": "Sleep and Wake",
+        "date" : "September 2019",
         "path": "/writeup/sleep",
         "desc": "Gettin Éowyn to go to sleep mode and wake up without having to power off"
     },
     {
         "title": "Power Management",
+        "date" : "December 2019",
         "path": "/writeup/power",
         "desc": "Attempting to get better power management on Éowyn with Powertop and TLP "
  
     },
     {
         "title": "VirtualBox Setup",
+        "date" : "June 2020",
         "path": "/writeup/virtualbox",
         "desc": "Getting started with Oracle's VirtualBox on Ubuntu machine"
     }
