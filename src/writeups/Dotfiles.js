@@ -31,21 +31,21 @@ function Dotfiles(){
             <Accordion allowZeroExpanded>
                 <AccordionItem>
                     <AccordionItemHeading>
-                        <AccordionItemButton >
+                        <AccordionItemButton>
                             .bashrc
                         </AccordionItemButton>
                     </AccordionItemHeading>
-                    <AccordionItemPanel className="cropUp">
+                    <AccordionItemPanel>
                         <EmbeddedGist gist="krithravi/3c6386312cff303d1e7becbb08c26c74" />
                     </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem>
                     <AccordionItemHeading>
-                        <AccordionItemButton >
+                        <AccordionItemButton>
                             .bash_aliases : A selected list.
                         </AccordionItemButton>
                     </AccordionItemHeading>
-                    <AccordionItemPanel className="cropUp">
+                    <AccordionItemPanel>
                         <EmbeddedGist gist="krithravi/26a9fa5c5013b94a7cb6a5cf05fb6d2c" />
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -56,7 +56,7 @@ function Dotfiles(){
                             .vimrc
                         </AccordionItemButton>
                     </AccordionItemHeading>
-                    <AccordionItemPanel className="cropUp">
+                    <AccordionItemPanel>
                         <EmbeddedGist gist="krithravi/a6139669797043aa240114adadf24cdf" />
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -67,7 +67,7 @@ function Dotfiles(){
                             zathurarc
                         </AccordionItemButton>
                     </AccordionItemHeading>
-                    <AccordionItemPanel className="cropUp">
+                    <AccordionItemPanel>
                         <EmbeddedGist gist="krithravi/d8fdbb8b7c7d9fe60a4c0160f0bc38a4" />
                     </AccordionItemPanel>
                 </AccordionItem>
@@ -77,12 +77,30 @@ function Dotfiles(){
                             style.conf for Zim
                         </AccordionItemButton>
                     </AccordionItemHeading>
-                    <AccordionItemPanel className="cropUp">
+                    <AccordionItemPanel>
                         <EmbeddedGist gist="krithravi/b39455d54a6193bab30f56a4d1e0250a" />
                     </AccordionItemPanel>
                 </AccordionItem>
-
-
+                <AccordionItem>
+                    <AccordionItemHeading>
+                        <AccordionItemButton>
+                            i3 config
+                        </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                        <EmbeddedGist gist="krithravi/7720898c62b7b1de1c28ec28e9fc1cda" />
+                    </AccordionItemPanel>
+                </AccordionItem>
+                <AccordionItem>
+                    <AccordionItemHeading>
+                        <AccordionItemButton>
+                            polybar config
+                        </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                        <EmbeddedGist gist="krithravi/08566f50e69b867e64505d0401ee9e4c" />
+                    </AccordionItemPanel>
+                </AccordionItem>
             </Accordion>
         </div>
     )

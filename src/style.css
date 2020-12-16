@@ -16,7 +16,6 @@
     
 }
 body {
-    /*background: linear-gradient( var(--med-purple), var(--navy-blue));*/
     background: var(--background);
 }
 
@@ -108,7 +107,6 @@ a:visited {
 
 p {
     color: var(--light-blue);
-    font-family: 'Padauk', sans-serif;
     font-family: 'Fira Sans', sans-serif;
     font-size: 18px;
 }
@@ -176,17 +174,18 @@ p {
 
 
 .accordion {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
+    /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+    border-radius: 5px;
+    padding: 5px 5px 50px 5px;
 }
 
 .accordion__item + .accordion__item {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    /*border-top: 1px solid rgba(0, 0, 0, 0.1);*/
 }
 
 .accordion__button {
-    background-color:var(--apricot);
-    color: var(--navy-blue);
+    background-color: var(--light-yellow);
+    color: var(--text-color);
     cursor: pointer;
     padding: 18px;
     width: 60%;
@@ -194,10 +193,11 @@ p {
     border: none;
     margin:auto;
     border-radius:10px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .accordion__button:hover {
-    background-color: var(--tiffany-blue)
+    background-color: #f7f7aa;
 }
 
 .accordion__button:before {
@@ -222,7 +222,8 @@ p {
 
 .accordion__panel {
     padding: 20px;
-    animation: fadein 0.35s ease-in;
+    margin: auto;
+    width: 60%;
 }
 
 /* -------------------------------------------------- */
@@ -236,11 +237,4 @@ p {
     100% {
         opacity: 1;
     }
-}
-
-.cropUp{
-    width: 60%;
-    padding: 2em;
-    margin: auto;
-    font-family: "Courier New", Courier, monospace;
 }
