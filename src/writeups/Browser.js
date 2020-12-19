@@ -98,7 +98,6 @@ function Browser(){
                 <h4>Cons</h4>
                     <p>
                         <ul>
-                                <li>Passwords are stored as <i>plaintext</i>. I ... don't even have words.</li>
                                 <li>Not all programs support Opera (like Overleaf), since it's not that popular.</li>
                                 <li>There’s not really a “never remember history” option, like there was in Firefox</li>
                                 <li>FB Messenger is kinda weird; it only works sometimes</li>
@@ -111,10 +110,7 @@ function Browser(){
                                         that, so that it becomes blue. This will let you pick the location.</li>
                         </ol>
                     </p>
-                <p>
-                    Should you choose Opera, you will need to use a
-                    secure password manager. Do not trust Opera to store your passwords for you.
-                </p>
+
                 <p>
                     <u>Update:</u> as of September 2020, I'm back to Firefox.
                 </p>
