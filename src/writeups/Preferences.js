@@ -31,7 +31,7 @@ function Preferences(){
                                 <li>Zathura</li>
                                     <ul>
                                         <li>Get support for DjVu: <span class="monospace">zathura-djvu</span></li>
-                                        <li>Get support for EPUB: //TODO </li>
+                                        <li>Get support for EPUB: // wanted to do with mupdf backend, but currently do with frbreader :( hacky workaround times </li>
                                     </ul>
                                 <li>Zim</li>
                                 <li>Plank</li>
