@@ -32,7 +32,6 @@ export const Home = () => (
 		<Header />
 		<div className="rowC">
 			<Body />
-			<Gallery />
 		</div>
 		<Contact />
 		<br></br>
@@ -43,6 +42,7 @@ export const Home = () => (
     </div>
 );
 
+// after body, previously <Gallery />
 // App Component
 function App(){
     return(
