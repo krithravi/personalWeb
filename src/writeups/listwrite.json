@@ -1,9 +1,9 @@
-[	
+[
     {
         "title": "Scrolling with i3",
         "date" : "November 2020",
         "path": "/writeup/scroll",
-        "desc": "Setting up natural scrolling with i3"
+        "desc": "Setting up natural scrolling with i3 on Debian buster"
     },
     {
         "title": "Debian Installation",
@@ -15,7 +15,7 @@
         "title": "Mapping Keys",
         "date" : "October 2019",
         "path": "/writeup/map",
-        "desc": "Mapping one key to another in Debian/Ubuntu"
+        "desc": "Mapping one key to another in Debian/Ubuntu (XKB stuff too!)"
     },
     {
         "title": "Changing Login Color",
@@ -25,9 +25,9 @@
     },
     {
         "title": "Desktop Environment",
-        "date" : "November 2019",
+        "date" : "April 2021",
         "path": "/writeup/deskenv",
-        "desc": "Playing around with different desktop environments and fixing some issues"
+        "desc": "Playing around with different desktop environments (GNOME, XFCE, Cinammon, i3)"
     },
     {
         "title": "Beautifying the Bash Experience",
@@ -39,7 +39,7 @@
         "title": "Accent Marks",
         "date" : "November 2019",
         "path": "/writeup/tweaks",
-        "desc": "Typing diacritics in Ubuntu"
+        "desc": "Typing diacritics in Ubuntu (GNOME tweaks)"
     },
     {
         "title": "Browser Reviews",
@@ -57,14 +57,14 @@
         "title": "Sleep and Wake",
         "date" : "September 2019",
         "path": "/writeup/sleep",
-        "desc": "Gettin Éowyn to go to sleep mode and wake up without having to power off"
+        "desc": "Gettin Éowyn to go to sleep mode and wake up without having to power off (Ubuntu 18.04)"
     },
     {
         "title": "Power Management",
         "date" : "December 2019",
         "path": "/writeup/power",
-        "desc": "Attempting to get better power management on Éowyn with Powertop and TLP "
- 
+        "desc": "Attempting to get better power management on Éowyn with Powertop and TLP (Ubuntu 18.04) "
+
     },
     {
         "title": "VirtualBox Setup",

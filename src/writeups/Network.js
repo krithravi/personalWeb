@@ -55,7 +55,7 @@ function Network(){
                         in terms of creating profiles. Since I'd already established that
                         the <span class="directory">wifi-menu</span> method wasn't working to create
                         a valid profile, I tried to make my own.
-                    
+
                         <ol>
                                 <li> To figure out the name of my interface, so I ran the
                                         command <div class="realcode">iwconfig</div> I saw three labels
@@ -96,7 +96,7 @@ function Network(){
                         setting up their machines with Arch, and some of them set up their
                         WiFi by setting up their <span class="monospace">/etc/wpa_supplicant</span>
                         directories. To be honest, I couldn't really follow them easily, but
-                        here's what I did based on the <a href="https://wiki.archlinux.org/index.php/WPA_supplicant"> ArchLinux page </a>. 
+                        here's what I did based on the <a href="https://wiki.archlinux.org/index.php/WPA_supplicant"> ArchLinux page </a>.
                         I ran the following commands in the <span class="monospace">/etc/wpa_supplicant</span> directory:
                     </p>
                     <pre>
@@ -137,7 +137,7 @@ function Network(){
                     </p>
                     <pre><div class="realcode">
                         <span class="specialCase">{'cat << EOF >> root/etc/systemd/network/wlan0.network'}</span> <br></br>
-                
+
                         [Match] <br></br>
                         Name=wlan0 <br></br>
                         <br></br>
@@ -162,11 +162,11 @@ function Network(){
                     <h3>Later update:</h3>
                     <p>
                         I'm adding this at another date. Another solution that's substantially easier
-                        is to hook yourself up to an Ethernet connection, and install the <span class="directory">network manager</span>, 
-                        which comes with both <span class="directory">nmcli</span> and <span class="directory">nmtui</span> programs, 
+                        is to hook yourself up to an Ethernet connection, and install the <span class="directory">network manager</span>,
+                        which comes with both <span class="directory">nmcli</span> and <span class="directory">nmtui</span> programs,
                         which are pretty intuitive to use.
                     </p>
-                    <p>                
+                    <p>
                         While I had initially tried to install this program, I hadn't realized that
                         being on a university campus (with the weird login page) may have been affecting
                         my ability to login. Again, I'm not sure, but when I took Pippin back home and

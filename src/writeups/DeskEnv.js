@@ -4,6 +4,8 @@ import '../style.css'
 // u gotta use react-router-dom, not just react-router
 import Header from '../components/Header'
 import MiniHeader from './MiniHeader'
+import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-router-dom';
+
 function DeskEnv (){
     return(
         <div>
@@ -71,22 +73,71 @@ function DeskEnv (){
                         It feels more lightweight than GNOME, but I'm now starting to feel the burden of not using the most
                         popular version of something. Certain tools have backwards compatibility, but others certainly don't.
                         One of my favorites, for example, <span class="monospace">gnome-tweaks</span> works in a really jank way:
-                        it'll let you set the <code class="inline">Compose</code> key, but literally let you do nothing else. 
+                        it'll let you set the <code class="inline">Compose</code> key, but literally let you do nothing else.
                     </p>
              </div>
 			<div class="box">
-				<h3>i3</h3>
+				<h3>i3/i3-gaps</h3>
 				<p>
 					I now use i3, a window manager that replaces your DE.
 					I actually really like it. The customizability is really nice.
 					There's a bit of a learning curve, since you have to kinda
 					set up most things you want yourself. For example, I can't control
-					the audio via my keyboard without setting that up myself. The
-					default bar is really minimalistic, but probably needs customizing.
-					There'll probably be a lot of i3 related write-ups as I
-					customize stuff in the upcoming weeks. This entry
-					is dated 11/25/20. On the bright side, I've learned about
-					a lot more tools already!
+					the audio or brightness via my keyboard without setting that up myself. The
+					default bar is really minimalistic, but probably needs customizing (This entry is dateed 11/25/20).
+				</p>
+				<p>
+					As of 4/21/21, I'm head over heels in love with this setup. I'm not sure I'll even be able to switch
+					to another WM. I now use polybar as my bar, which seems really nice! I've also switched over
+					to i3-gaps (an i3 fork), which is really comparable. The performance is a bit lower, but that's something
+					I can live with. I use <span class="monospace">alsamixer</span> for the audio, and
+					sometimes <span class="monospace">pavucontrol (pulseaudio)</span>. They keyboard shortcuts are indeed
+					a bit of a learning curve, but I'd say the speed and organization are really worth it.
+				</p>
+				<p>
+					Brightness and audio were a bit weird. Previously, I used to use <span class="monospace">xrandr</span> to
+					manage brightness. This didn't affect the brightness of the display; it just impacted what a user might perceive
+					to be brightness by adjusting the saturation. My config used to contain the following:
+                    <div class="realcode">
+						bindsym XF86MonBrightnessUp exec path/bright_up.sh <br/>
+						bindsym XF86MonBrightnessDown exec path/bright_down.sh
+					</div>
+					where the <span class="specialCase">{"bright_{up/down}.sh"}</span> contained the following:
+					<pre>
+						<div class="realcode">
+							<span class="specialCase">{"set b {"}</span><br></br>
+							&emsp;<span class="specialCase">{"b=$(xrandr --verbose | grep -m 1 -w connected -A8 | grep Brightness | cut -f2- -d: | tr -d ' ')"}</span> <br></br>
+							&emsp;b=$(echo "$b+$1" | bc -l) <br></br>
+							&emsp;xrandr --output eDP-1 --brightness $b <br></br>
+							&emsp;echo $b <br></br>
+							<span class="specialCase">{"}"}</span> <br></br>
+							<br></br>
+							# if up, bright_constant = 0.1; if down, bright_constant = -0.1 <br></br>
+							set bright_constant
+                        </div>
+                    </pre>
+
+					For obvious reasons, that was a terrible solution, so I looked to <span class="monospace">brightnessctl</span> for guidance.
+					The first time I tried it, I ran into weird errors regarding permissions, but it seems to work fine now.
+					My <Link to="/writeup/dotfiles">i3 config</Link> now contains the lines
+                    <div class="realcode">
+						bindsym XF86MonBrightnessUp exec brightnessctl s +2% <br/>
+						bindsym XF86MonBrightnessDown exec brightnessctl s 2%-
+					</div>
+				</p>
+				<p>
+					As for sound, the combo of <span class="monospace">alsamixer</span> and <span class="monospace">pavucontrol</span> is really, really weird,
+					especially for certain apps like Spotify and Zoom (which used to blow my ears out because it would default to 100% audio
+					on <span class="monospace">alsamixer</span>; the workaround is to make 
+					100% audio not much at all using <span class="monospace">pavucontrol</span>).
+					I have no idea how to fix or deal with this, but it certainly does annoy me. At any rate, my <Link to="/writeup/dotfiles">i3 config</Link> 
+					now contains the lines
+                    <div class="realcode">
+						bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 2%+ <br/>
+						bindsym XF86AudioLowerVolume exec --no-startup-id amixer set Master 2%- <br/>
+						bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
+					</div>
+					Hopefully future me will figure this out!
 				</p>
 			</div>
         </div>
