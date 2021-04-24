@@ -25,15 +25,14 @@ function Practices(){
 									<br/> <br/>
 									I like compressing my files before backing up,
 									but that's optional. There are utilities (I know Ubuntu has
-									one by default) to do this for you, if you like!.
-									The reason I recommend having a script/cronjob to do this for
-									you, or using a built-in tool, is because you're way more likely to back up
-									when it's that easy or automated.
+									one by default) to do this for you, if you like!
+									I highly recommend having a script/cronjob to do this for
+									you, or using a built-in tool.
 									If you don't have this automated, you might want to set up a reminder to do this regularly!
 									<br /> <br />
 									On a side note, also back up before you do anything major, like
 									partitioning your drive.
-									<br />
+									<br /> <br/>
 									The pain and anxiety you'll feel when you've lost something important
 									isn't worth it at all. Please help yourself.
 								</p>
@@ -44,7 +43,7 @@ function Practices(){
 								<br/>
 								<p>
 									Concerning most non-hidden files in my home directory,
-									my rule of thumb is that:
+									my rule of thumb is that I should always know the following:
 								</p>
 								<ol>
 									<li>
@@ -64,9 +63,8 @@ function Practices(){
 								<p>
 									It might sound extreme, especially if you're used to listing
 									out the files every time and guessing which one is the one you're
-									looking for. However, staying organized will radically
-									improve your quality of life though
-									in the long run. It can be tempting to name
+									looking for. However, a good naming and organization scheme is a game changer.
+									I know it's tempting to name
 									files <span class="monospace">temp</span>, <span class="monospace">test</span>,
 									and <span class="monospace">foo</span>, but that scheme isn't doing you
 									any favors.
@@ -83,8 +81,10 @@ function Practices(){
 									solution: camelCase doesn't work in React file naming, we can't use hyphens in Java identifiers,
 									and you might have to escape certain files if they contain underscores in certain
 									languages (LaTeX does this, if I remember right).
-									Find a way that works for you, though. That will probably change depending on
+									Find a way that works for you, though, given that it'll probably change depending on
 									what you're doing.
+								</p>
+								<p>
 									Begin your names with a non-lowercase character;
 									no one has the energy to hit the <span class="directory">Shift</span> key every
 									time (tabbing will take you through the rest!).
@@ -94,7 +94,7 @@ function Practices(){
 							<li>
 								<b>Do your updates and upgrades</b>
 								<p>
-									They're good for your computer (and you). Do 'em regularly. :)
+									They're good for your computer (and you). Do 'em regularly (set up a cronjob or at least a reminder). :)
 								</p>
 							</li>
 							<li>
@@ -135,8 +135,8 @@ function Practices(){
 							<li>
 								<b>Version control</b>
 								<p>
-									Git is probably the most common, and it's really easy to use. Please track your versions with
-									<em>meaningful</em> names; future you will thank present you when your code suddenly stops working.
+									Git is probably the most common, and it's really easy to use. Please track your versions and commits
+									with <em>meaningful</em> names; future-you will thank present-you when your code suddenly stops working.
 								</p>
 							</li>
 						</ol>

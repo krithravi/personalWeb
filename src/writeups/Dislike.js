@@ -29,7 +29,7 @@ function Dislike(){
 									The easier option is launching with command line or <span class="monospace">dmenu</span>.
 								</li>
 								<li>
-									Right. Zoom also defaults to 100% volume with some combo of <span class="monospace">alsamixer </span>
+									Right. <Link to="/writeup/deskenv">Zoom also defaults to 100% volume</Link> with some combo of <span class="monospace">alsamixer </span>
 									and <span class="monospace">pavucontrol</span>, which has probably caused me a great deal of ear damage.
 								</li>
 								<li>
