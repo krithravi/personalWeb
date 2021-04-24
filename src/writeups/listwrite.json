@@ -1,27 +1,10 @@
 [
     {
-        "title": "Scrolling with i3",
-        "date" : "November 2020",
-        "path": "/writeup/scroll",
-        "desc": "Setting up natural scrolling with i3 on Debian buster"
-    },
-    {
-        "title": "Debian Installation",
-        "date" : "September 2020",
-        "path": "/writeup/debian",
-        "desc": "Getting started with Debian on Dell XPS"
-    },
-    {
-        "title": "Mapping Keys",
-        "date" : "October 2019",
-        "path": "/writeup/map",
-        "desc": "Mapping one key to another in Debian/Ubuntu (XKB stuff too!)"
-    },
-    {
-        "title": "Changing Login Color",
-        "date" : "September 2019",
-        "path": "/writeup/color",
-        "desc": "Changing the color of the login screen from shades of aubergine to something else in Ubuntu 18.04"
+        "title": "Things I don't like",
+        "date" : "April 2021",
+        "path": "/writeup/dislike",
+        "desc": "Some programs that I've tried and really, really don't like "
+
     },
     {
         "title": "Desktop Environment",
@@ -30,22 +13,28 @@
         "desc": "Playing around with different desktop environments (GNOME, XFCE, Cinammon, i3)"
     },
     {
-        "title": "Beautifying the Bash Experience",
-        "date" : "October 2019",
-        "path": "/writeup/bash",
-        "desc": "Making things look pretty in my terminal with Bash"
+        "title": "Scrolling with i3",
+        "date" : "November 2020",
+        "path": "/writeup/scroll",
+        "desc": "Setting up natural scrolling with i3 on Debian buster"
     },
+	{
+		"title": "Standard things I do for setups",
+		"date": "September 2020",
+		"path": "/writeup/preferences",
+		"desc": "A todo list of what to install and my preferences"
+	},
     {
-        "title": "Accent Marks",
-        "date" : "November 2019",
-        "path": "/writeup/tweaks",
-        "desc": "Typing diacritics in Ubuntu (GNOME tweaks)"
+        "title": "Debian Installation",
+        "date" : "September 2020",
+        "path": "/writeup/debian",
+        "desc": "Getting started with Debian on Dell XPS"
     },
-    {
-        "title": "Browser Reviews",
-        "date" : "December 2019",
-        "path": "/writeup/browser",
-        "desc": "My experiences with a bunch of browsers"
+	{
+        "title": "VirtualBox Setup",
+        "date" : "June 2020",
+        "path": "/writeup/virtualbox",
+        "desc": "Getting started with Oracle's VirtualBox on Ubuntu machine"
     },
     {
         "title": "Network Connection for Arch Linux ARM",
@@ -54,10 +43,10 @@
         "desc": "Getting Pippin to connect to WiFi"
     },
     {
-        "title": "Sleep and Wake",
-        "date" : "September 2019",
-        "path": "/writeup/sleep",
-        "desc": "Gettin Éowyn to go to sleep mode and wake up without having to power off (Ubuntu 18.04)"
+        "title": "Browser Reviews",
+        "date" : "December 2019",
+        "path": "/writeup/browser",
+        "desc": "My experiences with a bunch of browsers"
     },
     {
         "title": "Power Management",
@@ -67,9 +56,33 @@
 
     },
     {
-        "title": "VirtualBox Setup",
-        "date" : "June 2020",
-        "path": "/writeup/virtualbox",
-        "desc": "Getting started with Oracle's VirtualBox on Ubuntu machine"
+        "title": "Accent Marks",
+        "date" : "November 2019",
+        "path": "/writeup/tweaks",
+        "desc": "Typing diacritics in Ubuntu (GNOME tweaks)"
+    },
+    {
+        "title": "Mapping Keys",
+        "date" : "October 2019",
+        "path": "/writeup/map",
+        "desc": "Mapping one key to another in Debian/Ubuntu (XKB stuff too!)"
+    },
+    {
+        "title": "Beautifying the Bash Experience",
+        "date" : "October 2019",
+        "path": "/writeup/bash",
+        "desc": "Making things look pretty in my terminal with Bash"
+    },
+    {
+        "title": "Changing Login Color",
+        "date" : "September 2019",
+        "path": "/writeup/color",
+        "desc": "Changing the color of the login screen from shades of aubergine to something else in Ubuntu 18.04"
+    },
+    {
+        "title": "Sleep and Wake",
+        "date" : "September 2019",
+        "path": "/writeup/sleep",
+        "desc": "Gettin Éowyn to go to sleep mode and wake up without having to power off (Ubuntu 18.04)"
     }
 ]

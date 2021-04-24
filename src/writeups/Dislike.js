@@ -39,7 +39,18 @@ function Dislike(){
 								</li>
 							</ul>
 						<li>Spotify</li>
-							<ul>Oh, boy. This one's a guilty pleasure. </ul>
+							<ul>
+								<li>Oh, boy. This one's a guilty pleasure. </li>
+								<li>Really, really bloated.</li>
+								<li>It takes up a bunch of storage, but as long as you periodically delete the cache, it'll be fine, I guess.</li>
+							</ul>
+						<li>VS Code</li>
+							<ul>
+								<li>As soon as I find good plugins/snippets for frontend-y stuff, this goes stat.</li>
+								<li>
+									This one makes you remove sources from <span class="monopace">/etc/apt/sources.list.d</span> if you want to uninstall.
+								</li>
+							</ul>
 					</ul>
 				</p>
 				<h3>Things I don't.</h3>
@@ -48,7 +59,7 @@ function Dislike(){
 							<li>Chrome</li>
 								<ul>
 									<li>Chrome is a different kind of hell. (yep, that deserved its own bullet.)</li>
-									<li>Google. Privacy. Need I say more? (yeah, "don't be evil" doesn't cut it.)</li>
+									<li>Privacy, dudes.</li>
 									<li>Chrome is insanely slow to load websites and JS</li>
 									<li>Chrome was one of the most intensive things I'd run, at least on my computer, and used up wayyyy more memory than Firefox or Opera.</li>
 									<li>
@@ -67,6 +78,7 @@ function Dislike(){
 								</ul>
 							<li>Firebase CLI</li>
 								<ul>
+									<li>Keeping something linked to a Google account on my computer just rubbed me the wrong way.</li>
 								</ul>
 						 </ul>
 					</p>
