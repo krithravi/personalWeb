@@ -13,18 +13,19 @@ function Body(){
                 I'm minoring in business Spanish.
                 <br /> <br />
 
-                I enjoy customizing
+                I enjoy ricing and customizing
                 my setups! Here are some {' '}
                 <Link to="/writeup">write-ups</Link>
-                {' '} based on 
-                my experiences.
+                {' '} based on
+                my experiences. I also like writing textbook-type
+				learning materials.
                 <br /> <br />
 
-                I love learning languages and practicing taekwondo. 
-                I also enjoy playing the violin and creating <Link to="/portfolio">artwork</Link> in my 
+                I love learning languages and practicing taekwondo.
+                I also enjoy playing the violin and creating <Link to="/portfolio">artwork</Link> in my
                 free time.
                 I love amphibians and reptiles, but I'm partial to frogs.
-                I have the cutest uromastyx in the world, <a href="https://www.instagram.com/shakira.uro"> Shakira</a>.
+                I have the cutest uromastyx in the world, Shakira.
 
 			</p>
 		</div>

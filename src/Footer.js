@@ -6,7 +6,7 @@ import { FaCopyright } from 'react-icons/fa'
 function Footer(){
 	return (
 		<div>
-            <p style={{fontSize:"14px"}}>Copyright <FaCopyright /> 2020 Krithika Ravishankar. All images property of Krithika Ravishankar.</p>
+			<p style={{fontSize:"14px"}}>Copyright <FaCopyright /> 2021 Krithika Ravishankar. All images property of Krithika Ravishankar.</p>
 		</div>
 	);
 }

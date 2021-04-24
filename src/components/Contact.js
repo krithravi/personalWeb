@@ -21,13 +21,13 @@ class IndivContact extends React.Component {
     // oooh you don't need to to use quotes anymore lol
     // also onclick becomes onClick bc react is sPeciAl
     render (){
-        return <button 
-                    className ="button write" 
+        return <button
+                    className ="button write"
                     onClick={this.workingLink} >
-                    <i 
-                        style={{color: "var(--navy-blue)"}} 
-                        className={this.props.icon}> 
-                    </i> {this.props.name} 
+                    <i
+                        style={{color: "var(--navy-blue)"}}
+                        className={this.props.icon}>
+                    </i> {this.props.name}
                 </button>
     }
 }

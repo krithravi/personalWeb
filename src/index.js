@@ -23,12 +23,13 @@ import Power from './writeups/Power'
 import Virtualbox from './writeups/Virtualbox'
 import Scroll from './writeups/Scroll'
 import Practices from './writeups/Practices'
+import Dislike from './writeups/Dislike'
 
 import Portfolio from './Portfolio'
 import Gallery from './Gallery'
 import Footer from './Footer'
 export const Home = () => (
-    <div>
+	<div>
 		<Header />
 		<div className="rowC">
 			<Body />
@@ -39,17 +40,17 @@ export const Home = () => (
 		<br></br>
 		<hr></hr>
 		<Footer />
-    </div>
+	</div>
 );
 
 // after body, previously <Gallery />
 // App Component
 function App(){
-    return(
-        <div>
+	return(
+		<div>
 			<br /> <br />
 			<Switch>
-            	<Route exact path="/" component={Home}/>
+				<Route exact path="/" component={Home}/>
 				<Route exact path="/writeup" component={ListofWriteUps}/>
 				<Route exact path="/portfolio" component={Portfolio}/>
 				<Route path="/writeup/dotfiles" component={Dotfiles} />
@@ -66,11 +67,12 @@ function App(){
 				<Route path="/writeup/power" component={Power}/>
 				<Route path="/writeup/virtualbox" component={Virtualbox} />
 				<Route path="/writeup/scroll" component={Scroll} />
-                <Route path="/writeup/practices" component={Practices} />
-          	</Switch>
+				<Route path="/writeup/practices" component={Practices} />
+				<Route path="/writeup/dislike" component={Dislike} />
+			</Switch>
 
-        </div>
-    );
+		</div>
+	);
 }
 
 
@@ -78,5 +80,5 @@ ReactDOM.render(
 	<Router>
 		<App />
 	</Router>,
-    document.getElementById("root")
+	document.getElementById("root")
 );
