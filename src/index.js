@@ -33,6 +33,7 @@ export const Home = () => (
 		<Header />
 		<div className="rowC">
 			<Body />
+			<Gallery />
 		</div>
 		<Contact />
 		<br></br>

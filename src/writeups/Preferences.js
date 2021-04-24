@@ -58,9 +58,9 @@ function Preferences(){
 						<ul>
 							<li> Adding yourself to the sudoers file (on Debian, <span class="monospace">visudo</span> didn't work for me)</li>
 							<li>Natural scrolling</li>
-							<li><Link to="/writeup/map">Mapping</Link> <code class="inline">Caps Lock</code> to <code class="inline">Esc</code></li>
-							<li> I need a multilingual keyboard with dead keys. I prefer having <code class="inline">AltGr</code> as
-								my dead key (<code class="inline">Compose</code> key).
+							<li><Link to="/writeup/map">Mapping</Link> <span class="directory">Caps Lock</span> to <span class="directory">Esc</span></li>
+							<li> I need a multilingual keyboard with dead keys. I prefer having <span class="directory">AltGr</span> as
+								my dead key (<span class="directory">Compose</span> key).
 							</li>
 							<li>Spotify and spicetify</li>
 							<li>

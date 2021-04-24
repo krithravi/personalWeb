@@ -21,9 +21,9 @@ function Bash(){
                         There are couple of definitions to note within this section: the
                         environmental variables <span class="monospace">$PS1</span> and <span class="monospace">$PS2</span>. <span class="monospace">$PS1</span> refers to the primary
                         command prompt, the one you see every time you open up a Bash terminal.
-                        <span class="monospace">$PS2</span> refers to the secondary command prompt, which is
+                        <span class="monospace"> $PS2</span> refers to the secondary command prompt, which is
                         what you see when the terminal is expecting more input from you, like when
-                        you use <span class="directory">gcalccmd</span>.
+                        you use <span class="monospace">gcalccmd</span>.
                     </p>
                     <h4>The Problem</h4>
                     <p>

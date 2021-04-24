@@ -48,7 +48,7 @@ function Dislike(){
 							<ul>
 								<li>As soon as I find good plugins/snippets for frontend-y stuff, this goes stat.</li>
 								<li>
-									This one makes you remove sources from <span class="monopace">/etc/apt/sources.list.d</span> if you want to uninstall.
+									This one makes you remove sources from <span class="monospace">/etc/apt/sources.list.d</span> if you want to uninstall.
 								</li>
 							</ul>
 					</ul>
@@ -64,7 +64,7 @@ function Dislike(){
 									<li>Chrome was one of the most intensive things I'd run, at least on my computer, and used up wayyyy more memory than Firefox or Opera.</li>
 									<li>
 										By the way, when you uninstall, it doesn't do it cleanly.
-										On Debian, you have to go in and remove the corresponding files from your <span class="monopace">/etc/apt/sources.list.d</span>.
+										On Debian, you have to go in and remove the corresponding files from your <span class="monospace">/etc/apt/sources.list.d</span>.
 										Yes, it'll ping the corresponding sites every time you run updates. I couldn't stand this.
 									</li>
 								</ul>
