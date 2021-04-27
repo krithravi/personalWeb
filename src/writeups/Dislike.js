@@ -38,15 +38,9 @@ function Dislike(){
 									you'll need to quit twice to get rid of the program. No idea why, but it's just a mild annoyance.
 								</li>
 							</ul>
-						<li>Spotify</li>
-							<ul>
-								<li>Oh, boy. This one's a guilty pleasure. </li>
-								<li>Really, really bloated.</li>
-								<li>It takes up a bunch of storage, but as long as you periodically delete the cache, it'll be fine, I guess.</li>
-							</ul>
 						<li>VS Code</li>
 							<ul>
-								<li>As soon as I find good plugins/snippets for frontend-y stuff, this goes stat.</li>
+								<li>As soon as I find good plugins/snippets for frontend-y stuff, this goes, stat.</li>
 								<li>
 									This one makes you remove sources from <span class="monospace">/etc/apt/sources.list.d</span> if you want to uninstall.
 								</li>
@@ -75,6 +69,12 @@ function Dislike(){
 										since I had these installed back when I used Ubuntu with GNOME or Debian with Cinammon.
 									</li>
 									<li>You get the same issue with MS Teams as in Chrome, where you have to go in and remove sources. It's annoying.</li>
+								</ul>
+							<li><Link to="/writeup/spotify">Spotify</Link></li>
+								<ul>
+									<li>Oh, boy. This one's a guilty pleasure. </li>
+									<li>Really, really bloated.</li>
+									<li>It takes up a bunch of storage, but as long as you periodically delete the cache, it'll be fine, I guess.</li>
 								</ul>
 							<li>Firebase CLI</li>
 								<ul>

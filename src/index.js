@@ -24,10 +24,12 @@ import Virtualbox from './writeups/Virtualbox'
 import Scroll from './writeups/Scroll'
 import Practices from './writeups/Practices'
 import Dislike from './writeups/Dislike'
+import Spotify from './writeups/Spotify'
 
 import Portfolio from './Portfolio'
 import Gallery from './Gallery'
 import Footer from './Footer'
+
 export const Home = () => (
 	<div>
 		<Header />
@@ -70,6 +72,7 @@ function App(){
 				<Route path="/writeup/scroll" component={Scroll} />
 				<Route path="/writeup/practices" component={Practices} />
 				<Route path="/writeup/dislike" component={Dislike} />
+				<Route path="/writeup/spotify" component={Spotify} />
 			</Switch>
 
 		</div>
