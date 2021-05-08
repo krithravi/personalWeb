@@ -10,7 +10,7 @@ function Spotify(){
 	return(
 		<div>
 			<Header />
-			{MiniHeader("Spotify")}
+			{MiniHeader("Spotify: In Memoriam")}
 			<div className="box">
 				<h3>An Introduction</h3>
 					<p>

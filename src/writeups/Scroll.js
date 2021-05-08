@@ -17,7 +17,7 @@ function Scroll(){
 						matches that of the scrollbar, as the default, but I wanted natural
 						scrolling where your scrolling motion matches the motion of the page.
 					</p>
-		        <h3>Stuff that didn't work</h3>
+				<h3>Stuff that didn't work</h3>
 					<p>
 						<a href="https://wiki.archlinux.org/index.php/Libinput#Via_xinput">
 							Based on the ArchWiki
@@ -35,7 +35,7 @@ function Scroll(){
 						At any rate, I tried the solution recommended, which did nothing.
 						The device in question was the "PS/2 Synaptics TouchPad"; this is really
 						important, keep this in mind for later.
-                    </p>
+					</p>
 					<p>
 						The next thing I tried was screwing with some config files.
 						I was told to add a file
@@ -52,12 +52,12 @@ function Scroll(){
 						<pre>
 							<div class="realcode">
 								Section "InputClass" <br />
-									&emsp; 	&emsp; Identifier "libinput touchpad catchall"<br />
-									&emsp; 	&emsp; MatchIsTouchpad "on"<br />
-									&emsp; 	&emsp; MatchDevicePath "/dev/input/event*"<br />
-									&emsp; 	&emsp; Option "NaturalScrolling" "false"<br />
-									&emsp; 	&emsp; Option "Tapping" "on"<br />
-									&emsp; 	&emsp; Driver "libinput"<br />
+									&emsp;	&emsp; Identifier "libinput touchpad catchall"<br />
+									&emsp;	&emsp; MatchIsTouchpad "on"<br />
+									&emsp;	&emsp; MatchDevicePath "/dev/input/event*"<br />
+									&emsp;	&emsp; Option "NaturalScrolling" "false"<br />
+									&emsp;	&emsp; Option "Tapping" "on"<br />
+									&emsp;	&emsp; Driver "libinput"<br />
 								EndSection
 							</div>
 						</pre>
@@ -72,7 +72,7 @@ function Scroll(){
 						and playing with different numbers, which refer to the priority of the file.
 						These didn't work either.
 					</p>
-                    <p>
+					<p>
 						Evidently, I can't read.
 						The ArchWiki's linked in the beginning suggested running
 						<pre>
@@ -84,7 +84,7 @@ function Scroll(){
 						There wasn't a package with that exact name, so
 						I decided to install <span class="monospace">libinput-tools</span>. This
 						seemed to do the trick.
-                    </p>
+					</p>
 					<p>
 						The <span class="monospace">list-devices</span> bit just displays the info
 						a bit differently; it's not that big of a deal breaker. However,
@@ -109,23 +109,23 @@ function Scroll(){
 						For the temporary testing, the device numbers work fine, but
 						for something to be loaded for every session, it's recommended
 						to use the actual names, since the numbers can change.
-                        This <span class="monospace">/etc/X11/xinit/xinitrc</span> solution did not work for me,
-                        since on reboot, it only did the first command.
+						This <span class="monospace">/etc/X11/xinit/xinitrc</span> solution did not work for me,
+						since on reboot, it only did the first command.
 					</p>
-                    <h3>The Solution</h3>
-                    <p>
-                        The final solution was adding the following lines to my i3 config:
-                        <pre>
+					<h3>The Solution</h3>
+					<p>
+						The final solution was adding the following lines to my i3 config:
+						<pre>
 							<div class="realcode">
-                                exec --no-startup-id xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Tapping Enabled" 1 & <br/>
-                                exec --no-startup-id xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Natural Scrolling Enabled" 1
+								exec --no-startup-id xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Tapping Enabled" 1 & <br/>
+								exec --no-startup-id xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Natural Scrolling Enabled" 1
 							</div>
 						</pre>
-                    </p>
+					</p>
 
 			</div>
-        </div>
-    )
+		</div>
+	)
 }
 
 export default Scroll;

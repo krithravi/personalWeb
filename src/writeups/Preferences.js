@@ -62,7 +62,6 @@ function Preferences(){
 							<li> I need a multilingual keyboard with dead keys. I prefer having <span class="directory">AltGr</span> as
 								my dead key (<span class="directory">Compose</span> key).
 							</li>
-							<li>Spotify and spicetify</li>
 							<li>
 								Set the DejaVu font collection as system default. I used to do this with <Link to="/writeup/tweaks">GNOME tweaks</Link>,
 								but I don't know how to do it in non-GNOME-based DEs.

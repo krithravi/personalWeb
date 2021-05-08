@@ -30,20 +30,20 @@ function Network(){
 				</p>
 				<h4>Wifi Menu</h4>
 					<p>
-						The first thing I tried was running the <span class="directory">wifi-menu</span> as root. It prompted me to pick the WiFi
+						The first thing I tried was running the <span class="monospace">wifi-menu</span> as root. It prompted me to pick the WiFi
 						network and enter in the password. I tried a few different networks, all
 						with correct passwords, but I kept getting an error message.
 					</p>
 					<p>
 						I also ran into other issues while trying to figure this out. Turns out,
 						sometimes it'll save a network profile for you, which will make it so
-						that that same network will not appear in the <span class="directory">wifi-menu</span>. These profiles will appear in the <span class="monospace">/etc/netctl</span> directory, which you'll have to delete
+						that that same network will not appear in the <span class="monospace">wifi-menu</span>. These profiles will appear in the <span class="monospace">/etc/netctl</span> monospace, which you'll have to delete
 						if you want the corresponding networks to show up in the menu. This led
 						me to the next thing I tried.
 					</p>
 				<h4>Netctl</h4>
 					<p>
-						I spent a ridiculous number of hours in the <span class="monospace">/etc/netctl</span> directory; I'm sick of it. By the way,
+						I spent a ridiculous number of hours in the <span class="monospace">/etc/netctl</span> monospace; I'm sick of it. By the way,
 						everything in these steps was done as root, since (a) I didn't feel like
 						typing <span class="monospace">sudo</span> every time, and (b), I couldn't even
 						install it without network connection.
@@ -51,19 +51,19 @@ function Network(){
 					<p>
 						I ran the command <div class="realcode">lspci -k </div> to check if the
 						kernel loaded the driver. I got no result. As I mentioned earlier, the
-						<span class="directory">wifi-menu</span> and the <span class="directory">netctl</span> methods talk to each other,
+						<span class="monospace">wifi-menu</span> and the <span class="monospace">netctl</span> methods talk to each other,
 						in terms of creating profiles. Since I'd already established that
-						the <span class="directory">wifi-menu</span> method wasn't working to create
+						the <span class="monospace">wifi-menu</span> method wasn't working to create
 						a valid profile, I tried to make my own.
 
 						<ol>
 								<li> To figure out the name of my interface, so I ran the
 										command <div class="realcode">iwconfig</div> I saw three labels
-										on the LHS, <span class="monospace">lo</span>, <span class="monospace">wlan0</span>, and <span class="monospace">eth0</span>. Hence,
+										on the LHS: <span class="monospace">lo</span>, <span class="monospace">wlan0</span>, and <span class="monospace">eth0</span>. Hence,
 										my interface was called <span class="monospace">wlan0</span>.</li>
 								<li>I went to the <span class="monospace">examples</span> and took a look. I
 										made a copy of the <span class="monospace">wireless-wpa</span> profile in
-										the <span class="monospace">netctl</span> directory. </li>
+										the <span class="monospace">netctl</span> monospace. </li>
 								<li> I edited my copy of the profile and filled in the necessary
 										components:
 										<ul>
@@ -75,8 +75,8 @@ function Network(){
 								<li>Run the command <div class="realcode">netctl start
 												my_profile</div>
 								</li>
-								<li>At this point, you should test your connection. Consider
-										<span class="directory">ping</span>ing a website you like. </li>
+								<li>At this point, you should test your connection.
+									Consider <span class="monospace">ping</span>ing a website you like. </li>
 								<li>If it works, great! You can set it to be long-term using the
 										command <div class="realcode">netctl enable
 												my_profile</div> Since I didn't even get it to work
@@ -97,7 +97,7 @@ function Network(){
 						WiFi by setting up their <span class="monospace">/etc/wpa_supplicant</span>
 						directories. To be honest, I couldn't really follow them easily, but
 						here's what I did based on the <a href="https://wiki.archlinux.org/index.php/WPA_supplicant"> ArchLinux page </a>.
-						I ran the following commands in the <span class="monospace">/etc/wpa_supplicant</span> directory:
+						I ran the following commands in the <span class="monospace">/etc/wpa_supplicant</span> monospace:
 					</p>
 					<pre>
 						<div class="realcode">
@@ -162,8 +162,8 @@ function Network(){
 					<h3>Later update:</h3>
 					<p>
 						I'm adding this at another date. Another solution that's substantially easier
-						is to hook yourself up to an Ethernet connection, and install the <span class="directory">network manager</span>,
-						which comes with both <span class="directory">nmcli</span> and <span class="directory">nmtui</span> programs,
+						is to hook yourself up to an Ethernet connection, and install the <span class="monospace">network manager</span>,
+						which comes with both <span class="monospace">nmcli</span> and <span class="monospace">nmtui</span> programs,
 						which are pretty intuitive to use.
 					</p>
 					<p>
