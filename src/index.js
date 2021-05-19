@@ -27,7 +27,7 @@ import Dislike from './writeups/Dislike'
 import Spotify from './writeups/Spotify'
 
 import Blog from './blog/Blog'
-import Baking from './blog/Baking'
+import Organization from './blog/Organization'
 
 import Portfolio from './Portfolio'
 import Gallery from './Gallery'
@@ -77,7 +77,7 @@ function App(){
 				<Route path="/writeup/dislike" component={Dislike} />
 				<Route path="/writeup/spotify" component={Spotify} />
 				<Route exact path="/blog" component={Blog} />
-				<Route path="/blog/baking" component={Baking} />
+				<Route path="/blog/organization" component={Organization} />
 			</Switch>
 
 		</div>

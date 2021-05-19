@@ -13,13 +13,10 @@ function Body(){
                 I'm minoring in business Spanish.
                 <br /> <br />
 
-                I enjoy ricing and customizing
-                my setups! Here are some {' '}
-                <Link to="/writeup">write-ups</Link>
-                {' '} based on
-                my experiences. I also like writing textbook-type
-				learning materials.
-                <br /> <br />
+                I enjoy ricing and customizing my setups!
+				Here are some <Link to="/writeup">write-ups</Link> based on my experiences.
+				Here's my <Link to="/blog">blog</Link> where I talk about some random things.
+				<br /> <br />
 
                 I love learning languages and practicing taekwondo.
                 I also enjoy playing the violin and creating <Link to="/portfolio">artwork</Link> in my

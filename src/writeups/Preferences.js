@@ -28,7 +28,7 @@ function Preferences(){
 								<li>Sudo</li>
 								<li>Network-Manager</li>
 								<li>A desktop environment or tiling manager - i3/i3-gaps is nice</li>
-								<li>Web browser (Firefox + yes, I have a <a href="https://color.firefox.com/?theme=XQAAAAJMAQAAAAAAAABBKYhm849SCia48_6EGccwS">custom theme</a>)</li>
+								<li>Web browser (Firefox + yes, I have a <a href="https://color.firefox.com/?theme=XQAAAAJMAQAAAAAAAABBKYhm849SCia48_6EGccwS-xMDPr9496nlLQBCLx8FrDpvuwijYJpAI4Ec1CBgYqCTiq3FKDlB52GlnruSgwxWut4q010CN_Q1YsNG7aE4PEnJc_7EAxCCxEye2_PIqy417PCbCv5Wi0HlKO8j6NhjGf0SMFVjgijWJNac7vlT80CQvMpEOdEfZvgHVgT1U0NF4oYHeQLqr8lvwwI-5wDbS2F3iXvlduUpLL7LmrpII6fOqM0Tjen1BjuVmr0spzRcYtHIcWNhglIMTbqwadWqseY_256IAA">custom theme</a>)</li>
 								<li>Terminator</li>
 								<li>Zathura</li>
 									<ul>

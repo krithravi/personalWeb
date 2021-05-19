@@ -52,14 +52,15 @@ function Dotfiles(){
 					</AccordionItemPanel>
 				</AccordionItem>
 
+
 				<AccordionItem>
 					<AccordionItemHeading>
 						<AccordionItemButton>
-							.vimrc
+							nvim/init.vim
 						</AccordionItemButton>
 					</AccordionItemHeading>
 					<AccordionItemPanel>
-						<EmbeddedGist gist="krithravi/a6139669797043aa240114adadf24cdf" />
+						<EmbeddedGist gist="krithravi/9067f3f049d4536c93d7450905d5099e" />
 					</AccordionItemPanel>
 				</AccordionItem>
 
@@ -101,6 +102,16 @@ function Dotfiles(){
 					</AccordionItemHeading>
 					<AccordionItemPanel>
 						<EmbeddedGist gist="krithravi/08566f50e69b867e64505d0401ee9e4c" />
+					</AccordionItemPanel>
+				</AccordionItem>
+				<AccordionItem>
+					<AccordionItemHeading>
+						<AccordionItemButton>
+							.vimrc (formerly used, but some nice plugins live here)
+						</AccordionItemButton>
+					</AccordionItemHeading>
+					<AccordionItemPanel>
+						<EmbeddedGist gist="krithravi/a6139669797043aa240114adadf24cdf" />
 					</AccordionItemPanel>
 				</AccordionItem>
 			</Accordion>

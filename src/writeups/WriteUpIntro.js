@@ -14,9 +14,9 @@ function WriteUpIntro(){
 					<br></br>
 					These are a bunch of write-ups about various installations and issues
 					I've encountered.
-                    This is documentation for my own sanity, so I'm not sure how
-                    useful they'll be to you.
-                    However, if these do help, that's fantastic!
+					This is documentation for my own sanity, so I'm not sure how
+					useful they'll be to you.
+					However, if these do help, that's fantastic!
 					<br></br>
 					<br></br>
 					My <Link to="/writeup/dotfiles">dotfiles</Link> {' '} and these write-ups are a compilation of things
@@ -27,7 +27,7 @@ function WriteUpIntro(){
 					These are my current set ups:
 					<ul>
 						<li>&Eacute;owyn: Dell XPS 15 9570, with Debian Buster (i3wm)</li>
-						<li>Pippin: Raspberry Pi 3B+, with Arch Linux ARM </li>
+						<li>Pippin: Raspberry Pi 3B+, with Raspbian Lite </li>
 					</ul>
 				</p>
 			</div>
