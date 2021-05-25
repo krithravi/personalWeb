@@ -19,30 +19,31 @@ function Preferences(){
 					<p>
 						These are ranked vaguely in the order I need them.
 							<ul>
-								<li>Vim</li>
+								<li>Vim/Neovim</li>
 									<ul>
 										<li>Vundle (dependent on Git)</li>
 									</ul>
 								<li>Git</li>
-								<li>Curl</li>
-								<li>Sudo</li>
-								<li>Network-Manager</li>
-								<li>A desktop environment or tiling manager - i3/i3-gaps is nice</li>
-								<li>Web browser (Firefox + yes, I have a <a href="https://color.firefox.com/?theme=XQAAAAJMAQAAAAAAAABBKYhm849SCia48_6EGccwS-xMDPr9496nlLQBCLx8FrDpvuwijYJpAI4Ec1CBgYqCTiq3FKDlB52GlnruSgwxWut4q010CN_Q1YsNG7aE4PEnJc_7EAxCCxEye2_PIqy417PCbCv5Wi0HlKO8j6NhjGf0SMFVjgijWJNac7vlT80CQvMpEOdEfZvgHVgT1U0NF4oYHeQLqr8lvwwI-5wDbS2F3iXvlduUpLL7LmrpII6fOqM0Tjen1BjuVmr0spzRcYtHIcWNhglIMTbqwadWqseY_256IAA">custom theme</a>)</li>
+								<li>i3 and related things like <span class="monospace">feh/dmenu/gtk3</span></li>
+								<li>Browser (Firefox + yes, I have a <a href="https://color.firefox.com/?theme=XQAAAAJMAQAAAAAAAABBKYhm849SCia48_6EGccwS-xMDPr9496nlLQBCLx8FrDpvuwijYJpAI4Ec1CBgYqCTiq3FKDlB52GlnruSgwxWut4q010CN_Q1YsNG7aE4PEnJc_7EAxCCxEye2_PIqy417PCbCv5Wi0HlKO8j6NhjGf0SMFVjgijWJNac7vlT80CQvMpEOdEfZvgHVgT1U0NF4oYHeQLqr8lvwwI-5wDbS2F3iXvlduUpLL7LmrpII6fOqM0Tjen1BjuVmr0spzRcYtHIcWNhglIMTbqwadWqseY_256IAA">custom theme</a>)</li>
 								<li>Terminator</li>
 								<li>Zathura</li>
 									<ul>
 										<li>Get support for DjVu: <span class="monospace">zathura-djvu</span></li>
-										<li>Get support for EPUB: // wanted to do with mupdf backend, but currently just convert to PDF/DjVu </li>
+											<li>Get support for EPUB: <span class="monospace">zathura-pdf-mupdf</span> </li>
 									</ul>
-								<li>VS Code, get it from <span class="monospace">.deb</span> file</li>
-								<li>Set up SSH; OpenVPN is quite nice</li>
-									<ul>
-										<li>If you haven't already, get your dotfiles and config files on here!</li>
-									</ul>
+								<li>Set up SSH with <span class="monospace">openssh</span> package; OpenVPN is quite nice</li>
+								<li>Get additional displays working with <span class="monospace">xrandr</span>, which comes
+									from <span class="monospace">xorg-xrandr</span>. Update your <span class="monospace">.xinitrc</span>!
+								</li>
+								<li>Set brightness with <span class="monospace">brightnessctl</span></li>
+								<li>Get audio working with <span class="monospace">pulseaudio-alsa/pavucontrol/alsa-utils</span></li>
+								<li>Bar; I use Polybar for now</li>
+								<li>Compositing; I use picom.</li>
+								<li>Mutt for mail</li>
 							</ul>
 					</p>
-				<h3>Languages to check for (some might already be there)</h3>
+				<h3>Languages!</h3>
 					<p>
 						<ul>
 							<li>C/C++ (check for <span class="monospace">gcc</span>/<span class="monospace">g++</span>)</li>
@@ -56,16 +57,20 @@ function Preferences(){
 				<h3>Todo list (other things I like) </h3>
 					<p>
 						<ul>
-							<li> Adding yourself to the sudoers file (on Debian, <span class="monospace">visudo</span> didn't work for me)</li>
-							<li>Natural scrolling</li>
-							<li><Link to="/writeup/map">Mapping</Link> <span class="directory">Caps Lock</span> to <span class="directory">Esc</span></li>
-							<li> I need a multilingual keyboard with dead keys. I prefer having <span class="directory">AltGr</span> as
-								my dead key (<span class="directory">Compose</span> key).
-							</li>
+							<li> Adding yourself to the sudoers file</li>
+							<li><Link to="/writeup/scroll">Natural scrolling</Link></li>
+							<li><Link to="/writeup/map">Setting up custom key bindings</Link> </li>
+								<ul>
+									<li><span class="directory">Caps Lock</span> to <span class="directory">Esc</span></li>
+									<li> Multilingual keyboard with dead keys. I prefer having <span class="directory">AltGr</span> as
+										my dead key (<span class="directory">Compose</span> key).
+									</li>
+								</ul>
 							<li>
 								Set the DejaVu font collection as system default. I used to do this with <Link to="/writeup/tweaks">GNOME tweaks</Link>,
 								but I don't know how to do it in non-GNOME-based DEs.
 							</li>
+							<li>Set default apps! (mime-y stuff for future me // TODO)</li>
 							<li><Link to="/writeup/dislike">Zoom</Link> (sad pandemic times)</li>
 						</ul>
 					</p>

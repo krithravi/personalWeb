@@ -80,6 +80,16 @@ function Map(){
 							</div>
 						</pre>
 					</p>
+				<h3>Update #2, with Arch Linux</h3>
+					<p>
+						Right, so here's an even easier solution! Just add the following line
+						to your <span class="monospace">.xinitrc</span>:
+						<div class="realcode">
+							setxkbmap -option compose:ralt,caps:escape	
+						</div>
+						This solution's a lot better since you don't have to edit those sensitive
+						files yourself.
+					</p>
 				<h3>Arrow Keys</h3>
 					<p>
 						I really felt the need to add this at a later date. Why, you might ask?

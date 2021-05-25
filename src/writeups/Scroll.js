@@ -121,6 +121,9 @@ function Scroll(){
 								exec --no-startup-id xinput set-prop "SYNA2393:00 06CB:7A13 Touchpad" "libinput Natural Scrolling Enabled" 1
 							</div>
 						</pre>
+						
+						Update for Arch: make sure <span class="monospace">xinput</span> is installed!
+						If not, install <span class="monospace">xorg-xinput</span>, and you'll be golden.
 					</p>
 
 			</div>

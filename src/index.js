@@ -25,6 +25,7 @@ import Scroll from './writeups/Scroll'
 import Practices from './writeups/Practices'
 import Dislike from './writeups/Dislike'
 import Spotify from './writeups/Spotify'
+import Arch from './writeups/Arch'
 
 import Blog from './blog/Blog'
 import Organization from './blog/Organization'
@@ -76,6 +77,7 @@ function App(){
 				<Route path="/writeup/practices" component={Practices} />
 				<Route path="/writeup/dislike" component={Dislike} />
 				<Route path="/writeup/spotify" component={Spotify} />
+				<Route path="/writeup/arch" component={Arch} />
 				<Route exact path="/blog" component={Blog} />
 				<Route path="/blog/organization" component={Organization} />
 			</Switch>
