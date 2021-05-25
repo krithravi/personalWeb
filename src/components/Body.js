@@ -6,23 +6,23 @@ function Body(){
 	return (
 		<div className="box" style={{marginLeft: "10%", width: "40%"}}>
 			<p>
-                Hi, I'm Krithika!
-                <br /> <br />
-
-                I'm a computer science student at the University of Texas at Austin.
-                I'm minoring in business Spanish.
-                <br /> <br />
-
-                I enjoy ricing and customizing my setups!
-				Here are some <Link to="/writeup">write-ups</Link> based on my experiences.
-				Here's my <Link to="/blog">blog</Link> where I talk about some random things.
+				Hi, I'm Krithika!
 				<br /> <br />
 
-                I love learning languages and practicing taekwondo.
-                I also enjoy playing the violin and creating <Link to="/portfolio">artwork</Link> in my
-                free time.
-                I love amphibians and reptiles, but I'm partial to frogs.
-                I have the cutest uromastyx in the world, Shakira.
+				I'm a computer science student at the University of Texas at Austin.
+				I'm minoring in business Spanish.
+				<br /> <br />
+
+				I enjoy ricing and customizing my setups!
+				Here are some <Link to="/writeup">write-ups</Link> based on my experiences.
+				{/*Here's my <Link to="/blog">blog</Link> where I talk about some random things.*/}
+				<br /> <br />
+
+				I love learning languages and practicing taekwondo.
+				I also enjoy playing the violin and creating <Link to="/portfolio">artwork</Link> in my
+				free time.
+				I love amphibians and reptiles, but I'm partial to frogs.
+				I have the cutest uromastyx in the world, Shakira.
 
 			</p>
 		</div>

@@ -26,7 +26,7 @@ function WriteUpIntro(){
 					<br></br>
 					These are my current set ups:
 					<ul>
-						<li>&Eacute;owyn: Dell XPS 15 9570, with Debian Buster (i3wm)</li>
+						<li>&Eacute;owyn: Dell XPS 15 9570, with Arch Linux (i3-wm)</li>
 						<li>Pippin: Raspberry Pi 3B+, with Raspbian Lite </li>
 					</ul>
 				</p>

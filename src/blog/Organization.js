@@ -53,8 +53,9 @@ function Organization() {
 				</p>
 				<h3>What worked/didn't work</h3>
 				<p>
-					When I went to TAMS, I felt free of my possessions.
-					I couldn't bring everything
+					When I went to TAMS, I felt a newfound sense of freedom.
+					I couldn't bring everything I had ever owned, since I didn't have
+					that much space. My dorm had 
 				</p>
 			</div>
 		</div>
