@@ -2,25 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 
-/*
 :root {
-	--background: #bdf9ef;
-	--text-color: #0e6353;
-	--h2-color: #1a7510;
-	--link-color: #1988aa;
-	--light-yellow: #ffee88;
-}
-
-*/
-
-:root {
-	--background: #0a2803;
+	--background: #061c02;
 	--text-color: #e4f9cc;
 	--h2-color: #c0f7a0;
 	--link-color: #e1a0f7;
 	--hot-pink: #85075b;
 	--light-yellow: #ffee88;
 }
+
 * {
 	line-height: 2;
 	color: var(--text-color);
@@ -34,7 +24,7 @@ h1 {
 	font-family: 'Inconsolata', monospace;
 	color: var(--text-color);
 	text-align: center;
-	font-size: 50px;
+	font-size: 2.5em;
 	font-weight: lighter;
 	word-break: break-all;
 }
@@ -43,7 +33,7 @@ h2 {
 	color: var(--h2-color);
 	text-align: left;
 	font-family: 'Inconsolata', monospace;
-	font-size: 30px;
+	font-size: 1.5625em;
 	font-weight: bold;
 	word-break: break-all;
 }
@@ -51,14 +41,14 @@ h2 {
 h3 {
 	text-align: center;
 	font-family: 'Inconsolata', monospace;
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: bold;
 	word-break: break-all;
 }
 
 h4 {
 	font-family: 'Inconsolata', monospace;
-	font-size: 18px;
+	font-size: 1em;
 }
 
 .realcode {
@@ -113,7 +103,7 @@ a:visited {
 
 p {
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 18px;
+	font-size: 1em;
 }
 .button {
 	border-radius: 7px;

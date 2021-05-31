@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style.css'
 import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-router-dom';
-var title="krithravi";
+var title="krithika";
 
 const imgstyle = {
 	maxWidth: "100%",

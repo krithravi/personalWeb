@@ -2,7 +2,7 @@ import React from 'react';
 import { Fade } from 'react-slideshow-image';
 
 
-var objwidth=400;
+var objwidth=300;
 
 const fadeProperties = {
 	duration: 5000,
@@ -19,13 +19,13 @@ const Gallery = () => {
     <div className="slide-container">
       <Fade {...fadeProperties}>
         <div className="each-fade">
-            <img src={ require('./frogs/goldenpoisonfrog.png')} height={objwidth} style={{margin:"0 auto"}}/>
+            <img src={ require('./frogs/goldenpoisonfrog.png')} style={{margin:"0 auto"}}/>
         </div>
         <div className="each-fade">
-            <img src={ require('./frogs/africanbullfrog.png')} height={objwidth} style={{margin:"0 auto"}}/>
+            <img src={ require('./frogs/africanbullfrog.png')} style={{margin:"0 auto"}}/>
         </div>
         <div className="each-fade">
-            <img src={ require('./frogs/anthonypafrogs.png')} height={objwidth} style={{margin:"0 auto"}}/>
+            <img src={ require('./frogs/anthonypafrogs.png')} style={{margin:"0 auto"}}/>
         </div>
       </Fade>
     </div>

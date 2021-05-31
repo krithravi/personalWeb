@@ -40,7 +40,7 @@ function Preferences(){
 								<li>Get audio working with <span class="monospace">pulseaudio-alsa/pavucontrol/alsa-utils</span></li>
 								<li>Bar; I use Polybar for now</li>
 								<li>Compositing; I use picom.</li>
-								<li>Mutt for mail</li>
+								<li>Mutt for mail //TODO </li>
 							</ul>
 					</p>
 				<h3>Languages!</h3>
@@ -71,7 +71,9 @@ function Preferences(){
 								but I don't know how to do it in non-GNOME-based DEs.
 							</li>
 							<li>Set default apps! (mime-y stuff for future me // TODO)</li>
-							<li><Link to="/writeup/dislike">Zoom</Link> (sad pandemic times)</li>
+								<li>Set up cronjobs for updates and cleaning up // TODO</li>
+							<li>Vifm? Ranger? help pls //TODO </li>
+							<li><Link to="/writeup/dislike">Zoom</Link> (sad pandemic times) </li>
 						</ul>
 					</p>
 				<h3><Link to="/writeup/practices">A list of good practices I've learned over the years</Link></h3>
