@@ -7,6 +7,8 @@ import Body from './components/Body'
 // u gotta use react-router-dom, not just react-router
 import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-router-dom';
 
+import Background from './Background'
+
 import Dotfiles from './writeups/Dotfiles'
 import Preferences from './writeups/Preferences'
 import Debian from './writeups/Debian'

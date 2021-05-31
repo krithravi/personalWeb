@@ -26,8 +26,8 @@ function Dotfiles(){
 					Feel free to use
 					however much (or little) you like! Again, these
 					are compiled from other folks' dotfiles and config.
-					A more updated version can probably be found
-					in <a href="https://github.com/krithravi/dotfiles">this GitHub repo</a>.
+					A more complete and updated version can probably be found
+					in <a href="https://github.com/krithravi/rice">this GitHub repo</a>.
 				</p>
 			</div>
 			<Accordion allowZeroExpanded>
@@ -41,10 +41,11 @@ function Dotfiles(){
 						<EmbeddedGist gist="krithravi/3c6386312cff303d1e7becbb08c26c74" />
 					</AccordionItemPanel>
 				</AccordionItem>
+
 				<AccordionItem>
 					<AccordionItemHeading>
 						<AccordionItemButton>
-							.bash_aliases : A selected list.
+							.aliasrc : A selected list.
 						</AccordionItemButton>
 					</AccordionItemHeading>
 					<AccordionItemPanel>
@@ -56,7 +57,7 @@ function Dotfiles(){
 				<AccordionItem>
 					<AccordionItemHeading>
 						<AccordionItemButton>
-							nvim/init.vim
+							.vimrc
 						</AccordionItemButton>
 					</AccordionItemHeading>
 					<AccordionItemPanel>
@@ -77,16 +78,6 @@ function Dotfiles(){
 				<AccordionItem>
 					<AccordionItemHeading>
 						<AccordionItemButton>
-							style.conf for Zim (dark mode, no longer use, but config's pretty good)
-						</AccordionItemButton>
-					</AccordionItemHeading>
-					<AccordionItemPanel>
-						<EmbeddedGist gist="krithravi/b39455d54a6193bab30f56a4d1e0250a" />
-					</AccordionItemPanel>
-				</AccordionItem>
-				<AccordionItem>
-					<AccordionItemHeading>
-						<AccordionItemButton>
 							i3 config
 						</AccordionItemButton>
 					</AccordionItemHeading>
@@ -102,16 +93,6 @@ function Dotfiles(){
 					</AccordionItemHeading>
 					<AccordionItemPanel>
 						<EmbeddedGist gist="krithravi/08566f50e69b867e64505d0401ee9e4c" />
-					</AccordionItemPanel>
-				</AccordionItem>
-				<AccordionItem>
-					<AccordionItemHeading>
-						<AccordionItemButton>
-							.vimrc (formerly used, but some nice plugins live here)
-						</AccordionItemButton>
-					</AccordionItemHeading>
-					<AccordionItemPanel>
-						<EmbeddedGist gist="krithravi/a6139669797043aa240114adadf24cdf" />
 					</AccordionItemPanel>
 				</AccordionItem>
 			</Accordion>

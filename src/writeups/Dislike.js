@@ -10,10 +10,11 @@ function Dislike(){
 	return(
 		<div>
 			<Header />
-			{MiniHeader("Good heavens. I can't staaand these.")}
+			{MiniHeader("Good heavens.")}
 			<div class="box">
 				<p>
-					Some programs are just annoying. Either they don't work properly, or they're too bloated, or because of something else.
+					Some programs don't support Linux very well.
+					This isn't to say that the apps are altogether bad or anything; it just means that the app-to-Linux compatibility is pretty bad.
 					Here are some things that I have installed out of necessity and some I've since deleted.
 				</p>
 				<h3>Things I still have</h3>
@@ -38,13 +39,7 @@ function Dislike(){
 									you'll need to quit twice to get rid of the program. No idea why, but it's just a mild annoyance.
 								</li>
 							</ul>
-						<li>VS Code</li>
-							<ul>
-								<li>As soon as I find good plugins/snippets for frontend-y stuff, this goes, stat.</li>
-								<li>
-									This one makes you remove sources from <span class="monospace">/etc/apt/sources.list.d</span> if you want to uninstall.
-								</li>
-							</ul>
+
 					</ul>
 				</p>
 				<h3>Things I don't.</h3>
@@ -68,6 +63,9 @@ function Dislike(){
 										Same complaints as Zoom, except I've never dealt with any i3 specific issues,
 										since I had these installed back when I used Ubuntu with GNOME or Debian with Cinammon.
 									</li>
+									<li> Also, as an OS-independent frustration, the default setting is to have it run as a background process
+											even after exiting the app.
+									</li>
 									<li>You get the same issue with MS Teams as in Chrome, where you have to go in and remove sources. It's annoying.</li>
 								</ul>
 							<li><Link to="/writeup/spotify">Spotify</Link></li>
@@ -79,6 +77,13 @@ function Dislike(){
 							<li>Firebase CLI</li>
 								<ul>
 									<li>Keeping something linked to a Google account on my computer just rubbed me the wrong way.</li>
+								</ul>
+							<li>VS Code</li>
+								<ul>
+									<li><s>As soon as I find good plugins/snippets for frontend-y stuff, this goes, stat.</s> Update: there's some good plugins :) </li>
+									<li>
+										This one makes you remove sources from <span class="monospace">/etc/apt/sources.list.d</span> if you want to uninstall.
+									</li>
 								</ul>
 						 </ul>
 					</p>

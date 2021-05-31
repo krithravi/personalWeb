@@ -4,7 +4,7 @@ import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-
 
 function Body(){
 	return (
-		<div className="box" style={{marginLeft: "10%", width: "40%"}}>
+		<div className="box" style={{marginLeft: "10%", fontSize: "1.2em", width: "40%"}}>
 			<p>
 				Hi, I'm Krithika!
 				<br /> <br />

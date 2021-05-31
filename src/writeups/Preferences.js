@@ -68,10 +68,10 @@ function Preferences(){
 								</ul>
 							<li>
 								Set the DejaVu font collection as system default. I used to do this with <Link to="/writeup/tweaks">GNOME tweaks</Link>,
-								but I don't know how to do it in non-GNOME-based DEs.
+									but I don't know how to do it in non-GNOME-based DEs. Presently, I'm surviving with just the defaults. // TODO
 							</li>
-							<li>Set default apps! (mime-y stuff for future me // TODO)</li>
-								<li>Set up cronjobs for updates and cleaning up // TODO</li>
+							<li>Set default apps! (mime-y stuff) </li>
+							<li>Set up cronjobs for updates and cleaning up</li>
 							<li>Vifm? Ranger? help pls //TODO </li>
 							<li><Link to="/writeup/dislike">Zoom</Link> (sad pandemic times) </li>
 						</ul>

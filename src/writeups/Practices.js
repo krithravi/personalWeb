@@ -14,9 +14,11 @@ function Practices(){
 			<div class="box">
 				<h3>Don't be me</h3>
 					<p>
-						Listen. I've learned a few things the hard way, so I'm putting this
-						down. These are all things that I wish someone had told me earlier, or
-						things that people told me that I unfortunately ignored.
+						Here's another list! This covers
+						<ul>
+							<li>things I wish someone told me earlier</li>
+							<li>things people told me that I unfortunately ignored</li>
+						</ul>
 						<ol>
 							<li>
 								<b>Back up your stuff. </b>
@@ -137,6 +139,17 @@ function Practices(){
 								<p>
 									Git is probably the most common, and it's really easy to use. Please track your versions and commits
 									with <em>meaningful</em> names; future-you will thank present-you when your code suddenly stops working.
+								</p>
+							</li>
+							<li>
+								<b>Try to edit sensitive files as little as possible</b>
+								<p>
+									You know how you're supposed to use <span class='monospace'>visudo</span> to edit the sudoers list,
+									or run <span class="monospace">crontab -e</span> instead of editing the file directly? Try to
+									do the same thing as much as you can get away with. Most of the time, these utilities tell you immediately
+									if you've made a mistake in configuration. This way, you won't be stuck with an impossible-to-debug situation,
+									or worse, a brick. (Yes, messing up certain files enough can leave you with a brick. Yes, we've all been
+									there before, so don't be too hard on yourself.)
 								</p>
 							</li>
 						</ol>

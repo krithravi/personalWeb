@@ -83,10 +83,12 @@ function Map(){
 				<h3>Update #2, with Arch Linux</h3>
 					<p>
 						Right, so here's an even easier solution! Just add the following line
-						to your <span class="monospace">.xinitrc</span>:
+						to your config:
 						<div class="realcode">
 							setxkbmap -option compose:ralt,caps:escape	
 						</div>
+						The only way I could get this to work is by adding it to my i3 config;
+						I preceded it with <span class="monospace">exec_always --no-startup-id</span>.
 						This solution's a lot better since you don't have to edit those sensitive
 						files yourself.
 					</p>

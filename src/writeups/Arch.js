@@ -99,10 +99,10 @@ function Arch(){
 						<br/> <br/>
 						When I plugged in my monitor (through HDMI), it just duplicated
 						the display. I wanted it to be more of an extention, so
-						I had to add the following lines to my <span class="monospace">.xinitrc</span>:
+						I had to add the following lines to my i3 config:
 						<div class="realcode">
-							xrandr --output DP3 --right-of eDP1 <br/>
-							xrandr --output eDP1 --left-of DP3
+							exec_always --no-startup id xrandr --output DP3 --right-of eDP1 <br />
+							exec_always --no-startup-id xrandr --output eDP1 --left-of DP3
 						</div>
 						Do I know why the monitor is labeled "DP3" instead of HDMI-1 or something? Nope.
 						Do I know what DP1 and DP2 are? Also, nope. Please let me know if you find out, though!
