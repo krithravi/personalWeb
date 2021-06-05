@@ -4,10 +4,9 @@ import './style.css'
 import Contact from './components/Contact'
 import Header from './components/Header'
 import Body from './components/Body'
+import Footer from './components/Footer'
 // u gotta use react-router-dom, not just react-router
 import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-router-dom';
-
-import Background from './Background'
 
 import Dotfiles from './writeups/Dotfiles'
 import Preferences from './writeups/Preferences'
@@ -29,12 +28,8 @@ import Dislike from './writeups/Dislike'
 import Spotify from './writeups/Spotify'
 import Arch from './writeups/Arch'
 
-import Blog from './blog/Blog'
-import Organization from './blog/Organization'
-
 import Portfolio from './Portfolio'
 import Gallery from './Gallery'
-import Footer from './Footer'
 
 export const Home = () => (
 	<div>
@@ -43,11 +38,8 @@ export const Home = () => (
 			<Body />
 			<Gallery />
 		</div>
-		<Contact />
 		<br></br>
 		<br></br>
-		<br></br>
-		<hr></hr>
 		<Footer />
 	</div>
 );
@@ -80,8 +72,6 @@ function App(){
 				<Route path="/writeup/dislike" component={Dislike} />
 				<Route path="/writeup/spotify" component={Spotify} />
 				<Route path="/writeup/arch" component={Arch} />
-				<Route exact path="/blog" component={Blog} />
-				<Route path="/blog/organization" component={Organization} />
 			</Switch>
 
 		</div>

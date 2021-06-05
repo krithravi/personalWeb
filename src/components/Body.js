@@ -15,7 +15,6 @@ function Body(){
 
 				I enjoy ricing and customizing my setups!
 				Here are some <Link to="/writeup">write-ups</Link> based on my experiences.
-				{/*Here's my <Link to="/blog">blog</Link> where I talk about some random things.*/}
 				<br /> <br />
 
 				I love learning languages and practicing taekwondo.
