@@ -27,7 +27,7 @@ function Dotfiles(){
 					however much (or little) you like! Again, these
 					are compiled from other folks' dotfiles and config.
 					A more complete and updated version can probably be found
-					in <a href="https://github.com/krithravi/rice">this GitHub repo</a>.
+					in <a href="https://github.com/krithravi/dotfiles">this GitHub repo</a>.
 				</p>
 			</div>
 			<Accordion allowZeroExpanded>
