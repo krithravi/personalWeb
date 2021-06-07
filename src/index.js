@@ -28,6 +28,12 @@ import Dislike from './writeups/Dislike'
 import Spotify from './writeups/Spotify'
 import Arch from './writeups/Arch'
 
+import Academics from './academics/Academics'
+
+import GenericAndSTL from './academics/cs371g/GenericAndSTL'
+import CS371P1 from './academics/cs371g/CS371P1'
+
+
 import Portfolio from './Portfolio'
 import Gallery from './Gallery'
 
@@ -72,6 +78,9 @@ function App(){
 				<Route path="/writeup/dislike" component={Dislike} />
 				<Route path="/writeup/spotify" component={Spotify} />
 				<Route path="/writeup/arch" component={Arch} />
+				<Route exact path="/academics" component={Academics} />
+				<Route exact path="/academics/cs371g" component={GenericAndSTL} />
+				<Route path="/academics/cs371g/post1" component={CS371P1} />
 			</Switch>
 
 		</div>
