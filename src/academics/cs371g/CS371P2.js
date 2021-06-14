@@ -31,6 +31,13 @@ function CS371P2() {
 					Once I get started, though, it's not that bad.
 				</p>
 
+				<h3>What will I do next week?</h3>
+				<p>
+					I'll work on Collatz and my internship! I'll also finish up a few things for
+					research, which I've been procrastinating on. I'll also help my parents
+					with some cleaning.
+				</p>
+					
 
 				<h3>What did I think of Paper #2: makefile?</h3>
 				<p>
