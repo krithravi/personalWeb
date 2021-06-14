@@ -8,7 +8,7 @@ function CS371P2() {
 	return (
 		<div>
 			<Header />
-			{MiniHeader("CS371g Summer 2021: Krithika Ravishankar - Post 1")}
+			{MiniHeader("CS371g Summer 2021: Krithika Ravishankar - Post 2")}
 			<div class="box">
 
 				<h3>What did I do last week?</h3>
