@@ -4,7 +4,7 @@ import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-
 import { FaMusic } from 'react-icons/fa'
 function Body(){
 	return (
-		<div className="box" style={{ fontSize: "1.2em", width: "25%"}}>
+		<div className="box" style={{ fontSize: "1.2em"}}>
 			<p style={{textAlign:"left"}}>
 				Hi! I'm Krithika!
 				<br /> <br/>
@@ -23,12 +23,12 @@ function Body(){
 				</a>
 				<a href="https://drive.google.com/drive/u/1/folders/1f8TGQ-XJU5tH5svkpFxOnAOk6lcPrhwb">
 					<button className="button introlinks">
-						More reptile &amp; amphibian pics
+						Reptile &amp; amphibian photos
 					</button>
 				</a>
 				<a href="https://github.com/krithravi/ESL-notes/blob/main/main.pdf">
 					<button className="button introlinks">
-						Lecture notes for an ESL class I teach
+						Supplementary lecture notes for my ESL course
 					</button>
 				</a>
 
