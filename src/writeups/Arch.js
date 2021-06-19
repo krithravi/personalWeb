@@ -111,15 +111,21 @@ function Arch(){
 						about "fail[ing] to open cookie file '~/.config/pulse/cookie'". I found
 						some solution about symlinking it to another cookie file, but that failed. I don't know
 						what that's about, but running it again helped.
-						FYI, you'll need to run <span class="monospace">pulseaudio</span> before you run
-							<span class="monospace">pavucontrol</span>.
+						FYI, you'll need to run <span class="monospace">pulseaudio</span> before you
+						run <span class="monospace">pavucontrol</span>.
 						I added this to my i3 config as
 						<div class="realcode">
 							exec_always --no-startup-id pulseaudio
 						</div>
 						<br/><br/>
+						<s>
 						I have no idea how to install fonts. I'll update this when I figure out how/find the
-						the need to. So far, the default seems to be holding up okay.
+							the need to. So far, the default seems to be holding up okay.
+						</s> Promised update:
+						you can install fonts with <span class="monospace">pacman</span>.
+						You can first query the packages with <span class="monospace">pacman -Ss</span>.
+						The AUR's pretty sweet too!
+
 						<br/><br/>
 						<img src={riceImg}/>
 						Sorry, I had to blur the PDF a bit, since it's copyrighted.

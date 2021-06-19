@@ -12,14 +12,14 @@ function WriteUpIntro(){
 					Howdy!
 					<br></br>
 					<br></br>
-					These are a bunch of write-ups about various installations and issues
+					These are a bunch of write-ups about my installations and issues
 					I've encountered.
-					This is documentation for my own sanity, so I'm not sure how
-					useful they'll be to you.
-					However, if these do help, that's fantastic!
+					This is just documentation for my own sanity, but if these do help you,
+					that's fantastic!
 					<br></br>
 					<br></br>
-					My <Link to="/writeup/dotfiles">dotfiles</Link> {' '} and these write-ups are a compilation of things
+					My <a href="https://github.com/krithravi/dotfiles">dotfiles</a> and these write-ups
+					are a compilation of things
 					I've found online, typically from the ArchWikis, Reddit, StackExchange, and
 					other folks' GitHub pages. Here are some <Link to="/writeup/preferences">standard things I do for setups</Link>.
 					<br></br>

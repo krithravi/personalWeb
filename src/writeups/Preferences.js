@@ -67,12 +67,11 @@ function Preferences(){
 									</li>
 								</ul>
 							<li>
-								Set the DejaVu font collection as system default. I used to do this with <Link to="/writeup/tweaks">GNOME tweaks</Link>,
-									but I don't know how to do it in non-GNOME-based DEs. Presently, I'm surviving with just the defaults. // TODO
+								<s>Set the DejaVu font collection as system default. I used to do this with <Link to="/writeup/tweaks">GNOME tweaks</Link></s>.
+								Nope, NotoSans is way better for multilingual support and emojis. For the rest, Source Code Pro works great!
 							</li>
 							<li>Set default apps! (mime-y stuff) </li>
 							<li>Set up cronjobs for updates and cleaning up</li>
-							<li>Vifm? Ranger? help pls //TODO </li>
 							<li><Link to="/writeup/dislike">Zoom</Link> (sad pandemic times) </li>
 						</ul>
 					</p>

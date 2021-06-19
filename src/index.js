@@ -5,10 +5,10 @@ import Contact from './components/Contact'
 import Header from './components/Header'
 import Body from './components/Body'
 import Footer from './components/Footer'
+import NoMatch from './components/NoMatch'
 // u gotta use react-router-dom, not just react-router
 import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-router-dom';
 
-import Dotfiles from './writeups/Dotfiles'
 import Preferences from './writeups/Preferences'
 import Debian from './writeups/Debian'
 import Map from './writeups/Map'
@@ -35,24 +35,15 @@ import CS371P1 from './academics/cs371g/CS371P1'
 import CS371P2 from './academics/cs371g/CS371P2'
 
 
-
 import Portfolio from './Portfolio'
-import Gallery from './Gallery'
 
 export const Home = () => (
 	<div>
 		<Header />
-		<div className="rowC">
-			<Body />
-			<Gallery />
-		</div>
-		<br></br>
-		<br></br>
-		<Footer />
+		<Body />
 	</div>
 );
 
-// after body, previously <Gallery />
 // App Component
 function App(){
 	return(
@@ -61,8 +52,6 @@ function App(){
 			<Switch>
 				<Route exact path="/" component={Home}/>
 				<Route exact path="/writeup" component={ListofWriteUps}/>
-				<Route exact path="/portfolio" component={Portfolio}/>
-				<Route path="/writeup/dotfiles" component={Dotfiles} />
 				<Route path="/writeup/preferences" component={Preferences} />
 				<Route path="/writeup/debian" component={Debian}/>
 				<Route path="/writeup/map" component={Map}/>
@@ -84,6 +73,7 @@ function App(){
 				<Route exact path="/academics/cs371g" component={GenericAndSTL} />
 				<Route path="/academics/cs371g/post1" component={CS371P1} />
 				<Route path="/academics/cs371g/post2" component={CS371P2} />
+				<Route path='*' component={NoMatch} />
 			</Switch>
 
 		</div>

@@ -3,11 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 :root {
-	--background: #061c02;
 	--background: #041401;
 	--text-color: #e4f9cc;
 	--h2-color: #c0f7a0;
-	--link-color: #e1a0f7;
+	--link-color: #fc8f2f;
 	--hot-pink: #85075b;
 	--light-yellow: #ffee88;
 }
@@ -48,12 +47,12 @@ h3 {
 
 h4 {
 	font-family: 'Inconsolata', monospace;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 p {
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 .realcode {
 	background-color: var(--light-yellow);
@@ -78,7 +77,6 @@ span.monospace {
 	font-family: 'Inconsolata', monospace;
 }
 
-
 .specialCase {
 	font-family: 'Inconsolata', monospace;
 	color: var(--background);
@@ -86,35 +84,40 @@ span.monospace {
 
 .box {
 	margin: auto;
-	width: 65%;
+	width: 57%;
 	padding: 10px;
 	border-radius: 1em;
 	font-family:'Inconsolata', monospace;
 }
 
-
+a:hover {
+	filter: drop-shadow(0 0 10px);
+}
 a:link {
 	color: var(--link-color);
 	text-decoration: underline;
 }
 a:visited {
-	/*color: var(--visited);*/
 	color: var(--link-color);
 }
-.button:hover {
-	box-shadow: 0 3px 7px 0 var(--h2-color);
-}
 
+
+.introlinks {
+	width: 100%;
+}
 
 .button {
 	border-radius: 7px;
 	border: none;
-	background-color: var(--hot-pink);
+	font-size:1em;
+	/*background-color: var(--hot-pink);*/
+	background-color: var(--link-color);
+	color: var(--background);
 	text-align: center;
-	padding: 8px;
+	padding: 0.4em;
 	transition: all 0.5s;
 	cursor: pointer;
-	margin: 5px;
+	margin: 0.4em;
 }
 
 .button span {
@@ -123,7 +126,7 @@ a:visited {
 	position: relative;
 	color: inherit;
 	transition: 0.5s;
-  }
+}
 
 .button span:before {
 	content: '\00ab';
@@ -145,110 +148,12 @@ a:visited {
 
 .rowC{display:flex; flex-direction:row;}
 
-.slide-container {
-	width: 40%;
-	margin: 1% auto;
-}
-
-
-.each-slide > div {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-size: cover;
-}
-
-.each-slide span {
-	padding: 50px;
-	font-size: 20px;
-	text-align: center;
-}
-
-.each-fade {
-	display: flex;
-}
-
-
-.accordion {
-	/*border: 1px solid rgba(0, 0, 0, 0.1);*/
-	border-radius: 5px;
-	padding: 5px 5px 50px 5px;
-}
-
-.accordion__item + .accordion__item {
-	/*border-top: 1px solid rgba(0, 0, 0, 0.1);*/
-}
-
-.accordion__button {
-	background-color: var(--light-yellow);
-	color: var(--background);
-	cursor: pointer;
-	padding: 18px;
-	width: 60%;
-	text-align: left;
-	border: none;
-	margin:auto;
-	border-radius:10px;
-	font-family: 'Fira Sans', sans-serif;
-}
-
-.accordion__button:hover {
-	background-color: #f7f7aa;
-}
-
-.accordion__button:before {
-	display: inline-block;
-	content: '';
-	height: 10px;
-	width: 10px;
-	margin-right: 12px;
-	border-bottom: 2px solid currentColor;
-	border-right: 2px solid currentColor;
-	transform: rotate(-45deg);
-}
-
-.accordion__button[aria-expanded='true']::before,
-.accordion__button[aria-selected='true']::before {
-	transform: rotate(45deg);
-}
-
-[hidden] {
-	display: none;
-}
-
-.accordion__panel {
-	padding: 20px;
-	margin: auto;
-	width: 60%;
-}
-
-/* -------------------------------------------------- */
-/* ---------------- Animation part ------------------ */
-/* -------------------------------------------------- */
-
-@keyframes fadein {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
 
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 100%;
-}
-
-.eqi-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.eqi-container div {
-  height: 80px;
 }
 
 

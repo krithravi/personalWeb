@@ -12,13 +12,6 @@
 		"desc": "My previous Spotify and Spicetify installations and some thoughts"
 	},
     {
-        "title": "Things I don't like",
-        "date" : "April 2021",
-        "path": "/writeup/dislike",
-        "desc": "Some programs that I've tried and really, really don't like "
-
-    },
-    {
         "title": "Desktop Environment",
         "date" : "April 2021",
         "path": "/writeup/deskenv",

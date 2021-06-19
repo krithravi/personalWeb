@@ -36,7 +36,7 @@ function Dislike(){
 								<li>
 									On i3 (exiting with <span class="directory">Mod</span> +
 									<span class="directory">Shift</span> + <span class="directory">q</span>),
-									you'll need to quit twice to get rid of the program. No idea why, but it's just a mild annoyance.
+									you'll need to quit twice to get rid of the program until you disable that setting.
 								</li>
 							</ul>
 

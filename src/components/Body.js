@@ -1,28 +1,42 @@
 import React from 'react';
 import '../style.css'
 import { Switch, Link, Route, BrowserRouter as Router, IndexRoute } from 'react-router-dom';
-
+import { FaMusic } from 'react-icons/fa'
 function Body(){
 	return (
-		<div className="box" style={{marginLeft: "10%", fontSize: "1.2em", width: "40%"}}>
-			<p>
-				Hi, I'm Krithika!
+		<div className="box" style={{ fontSize: "1.2em", width: "25%"}}>
+			<p style={{textAlign:"left"}}>
+				Hi! I'm Krithika!
+				<br /> <br/>
+				<FaMusic /> <i>These are a few of my favorite things ...</i> <FaMusic /> *
+				<br />
+
+				<Link to="/writeup">
+					<button className="button introlinks">
+						Tech write-ups
+					</button>
+				</Link>
+				<a href="https://drive.google.com/drive/folders/1vEIXVBMUBvCClC2yCGhrjkv4_BeWShKK?usp=sharing">
+					<button className="button introlinks">
+						My uromastyx, Shakira
+					</button>
+				</a>
+				<a href="https://drive.google.com/drive/u/1/folders/1f8TGQ-XJU5tH5svkpFxOnAOk6lcPrhwb">
+					<button className="button introlinks">
+						More reptile &amp; amphibian pics
+					</button>
+				</a>
+				<a href="https://github.com/krithravi/ESL-notes/blob/main/main.pdf">
+					<button className="button introlinks">
+						Lecture notes for an ESL class I teach
+					</button>
+				</a>
+
 				<br /> <br />
 
-				I'm a computer science student at the University of Texas at Austin.
-				I'm minoring in business Spanish.
-				<br /> <br />
-
-				I enjoy ricing and customizing my setups!
-				Here are some <Link to="/writeup">write-ups</Link> based on my experiences.
-				<br /> <br />
-
-				I love learning languages and practicing taekwondo.
-				I also enjoy playing the violin and creating <Link to="/portfolio">artwork</Link> in my
-				free time.
-				I love amphibians and reptiles, but I'm partial to frogs.
-				I have the cutest uromastyx in the world, Shakira.
-
+				<p style={{fontSize:"0.7em"}}>
+					* I love Julie Andrews :)
+				</p>
 			</p>
 		</div>
 	);

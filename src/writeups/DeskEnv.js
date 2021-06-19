@@ -75,7 +75,7 @@ function DeskEnv (){
 						One of my favorites, for example, <span class="monospace">gnome-tweaks</span> works in a really jank way:
 						it'll let you set the <code class="inline">Compose</code> key, but literally let you do nothing else.
 					</p>
-			 </div>
+			</div>
 			<div class="box">
 				<h3>i3/i3-gaps</h3>
 				<p>
@@ -119,7 +119,7 @@ function DeskEnv (){
 
 					For obvious reasons, that was a terrible solution, so I looked to <span class="monospace">brightnessctl</span> for guidance.
 					The first time I tried it, I ran into weird errors regarding permissions, but it seems to work fine now.
-					My <Link to="/writeup/dotfiles">i3 config</Link> now contains the lines
+					My <a href="https://github.com/krithravi/dotfiles/blob/main/.config/i3/config">i3 config</a> now contains the lines
 					<div class="realcode">
 						bindsym XF86MonBrightnessUp exec brightnessctl s +2% <br/>
 						bindsym XF86MonBrightnessDown exec brightnessctl s 2%-
@@ -128,10 +128,10 @@ function DeskEnv (){
 				<p>
 					As for sound, the combo of <span class="monospace">alsamixer</span> and <span class="monospace">pavucontrol</span> is really, really weird,
 					especially for certain apps like Spotify and Zoom (which used to blow my ears out because it would default to 100% audio
-					on <span class="monospace">alsamixer</span>; the workaround is to make 
+					on <span class="monospace">alsamixer</span>; the workaround is to make
 					100% audio not much at all using <span class="monospace">pavucontrol</span>).
 					I have no idea how to fix or deal with this, but it certainly does annoy me. At any
-					rate, my <Link to="/writeup/dotfiles">i3 config</Link> now
+					rate, my i3 config now
 					contains the lines
 					<div class="realcode">
 						bindsym XF86AudioRaiseVolume exec --no-startup-id amixer set Master 2%+ <br/>
@@ -139,6 +139,7 @@ function DeskEnv (){
 						bindsym XF86AudioMute exec --no-startup-id amixer set Master toggle
 					</div>
 					Hopefully future me will figure this out!
+					Update: future me no longer has this issue, but I'm on Arch.
 				</p>
 			</div>
 		</div>

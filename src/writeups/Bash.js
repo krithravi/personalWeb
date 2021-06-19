@@ -88,7 +88,7 @@ function Bash(){
 							<li>All executables are bright yellow</li>
 							<li>Entries are colon-separated</li>
 						</ol>
-						My current settings for this variable are in my <Link to="/writeup/dotfiles">.bashrc</Link> file.
+							My current settings for this variable are in my <a href="https://github.com/krithravi/dotfiles/blob/main/.bashrc">.bashrc</a> file.
 					</p>
 			</div>
 		</div>
