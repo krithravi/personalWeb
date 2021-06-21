@@ -1,5 +1,11 @@
 [
 	{
+		"title": "Post 3",
+		"date" : "June 2021",
+		"path": "/academics/cs371g/post3",
+		"desc": "Week 3 of classes!"
+	},
+	{
 		"title": "Post 2",
 		"date" : "June 2021",
 		"path": "/academics/cs371g/post2",
