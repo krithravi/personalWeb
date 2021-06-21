@@ -31,6 +31,7 @@ function CS371P3() {
 				<p>
 					I'll work on the Netflix assignment, and do some writeups for research.
 					I think I'll feel a bit more free emotionally once I'm done with that.
+					I'll probably continue to help my parents clean the house.
 				</p>
 
 
