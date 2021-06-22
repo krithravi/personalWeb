@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css'
+
+
+import ScrollToTop from './components/ScrollToTop'
 import Contact from './components/Contact'
 import Header from './components/Header'
 import Body from './components/Body'
@@ -84,6 +87,7 @@ function App(){
 
 ReactDOM.render(
 	<Router>
+		<ScrollToTop/>
 		<App />
 	</Router>,
 	document.getElementById("root")
