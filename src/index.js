@@ -37,6 +37,7 @@ import GenericAndSTL from './academics/cs371g/GenericAndSTL'
 import CS371P1 from './academics/cs371g/CS371P1'
 import CS371P2 from './academics/cs371g/CS371P2'
 import CS371P3 from './academics/cs371g/CS371P3'
+import CS371P4 from './academics/cs371g/CS371P4'
 
 import Portfolio from './Portfolio'
 
@@ -77,6 +78,7 @@ function App(){
 				<Route path="/academics/cs371g/post1" component={CS371P1} />
 				<Route path="/academics/cs371g/post2" component={CS371P2} />
 				<Route path="/academics/cs371g/post3" component={CS371P3} />
+				<Route path="/academics/cs371g/post4" component={CS371P4} />
 				<Route path='*' component={NoMatch} />
 			</Switch>
 
